@@ -1101,5 +1101,24 @@ ML Interview questions
     Popular Machine Learning Interview Questions To Assess Candidates. https://analyticsindiamag.com/popular-machine-learning-interview-questions-used-to-assess-candidates/
     
     
-    
+    ## Machine Learning Cheat Sheets
+
+* [**full-cheatsheet-machine-learning-algorithms using scikit-learn library**](MLalgorithmsUsingScikitLearnAlgorithm.pdf)
+* [**Machine Learning Map**](ml_map.png)
+## Machine Learning Interview Question
+* [**100-data-science-interview-questions-and-answers-general-for-2017**](https://www.dezyre.com/article/100-data-science-interview-questions-and-answers-general-for-2017/184)
+* [**101 Data Science Interview Questions & Detailed Answers**](http://rpubs.com/JDAHAN/172473)
+* [**17-data-science-interview-questions-answers**](http://www.kdnuggets.com/2017/02/17-data-science-interview-questions-answers.html)
+ * [**40 Interview Questions asked at Startups in Machine Learning / Data Science**](https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/)
+ * [**21 Must-Know Data Science Interview Questions and Answers**](http://www.kdnuggets.com/2016/02/21-data-science-interview-questions-answers.html/2)
+ * [**Top 50 Machine learning Interview questions & Answers**](http://career.guru99.com/top-50-interview-questions-on-machine-learning/)
+ * [**Collection of Machine Learning Interview Questions**](http://analyticscosm.com/machine-learning-interview-questions-for-data-scientist-interview/)
+ * [**45 questions to test Data Scientists on Tree Based Algorithms (Decision tree, Random Forests, XGBoost)**](https://www.analyticsvidhya.com/blog/2016/12/detailed-solutions-for-skilltest-tree-based-algorithms/)
+ * [**40 Questions to test a Data Scientist on Clustering Techniques**](https://www.analyticsvidhya.com/blog/2017/02/test-data-scientist-clustering/)
+ * [**45 questions to test a Data Scientist on Regression **](https://www.analyticsvidhya.com/blog/2016/12/45-questions-to-test-a-data-scientist-on-regression-skill-test-regression-solution/)
+ * [**40 Questions to ask a Data Scientist on Ensemble Modeling Techniques **](https://www.analyticsvidhya.com/blog/2017/02/40-questions-to-ask-a-data-scientist-on-ensemble-modeling-techniques-skilltest-solution/)
+ * [**solution-for-skilltest-machine-learning**](https://www.analyticsvidhya.com/blog/2016/11/solution-for-skilltest-machine-learning-revealed/)
+ * [**40-questions-test-data-scientist-machine-learning-solution-skillpower-machine-learning**](https://www.analyticsvidhya.com/blog/2017/04/40-questions-test-data-scientist-machine-learning-solution-skillpower-machine-learning-datafest-2017/)
+ * [**41 Essential Machine Learning Interview Questions (with answers)**](https://www.springboard.com/blog/machine-learning-interview-questions/?utm_content=bufferc67c4&utm_medium=social&utm_source=linkedin.com&utm_campaign=buffer)
+ 
     
