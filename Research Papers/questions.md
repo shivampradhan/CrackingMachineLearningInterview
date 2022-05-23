@@ -1,4 +1,8 @@
 https://github.com/rbackupX/QuestionBank
+https://www.kaggle.com/questions-and-answers/239533
+
+https://www.analyticsvidhya.com/blog/2018/06/comprehensive-data-science-machine-learning-interview-guide/
+
 
 https://www.mlstack.cafe/blog/data-science-interview-questions
 https://www.mlstack.cafe/blog/tensorflow-interview-questions
@@ -8,6 +12,8 @@ https://www.mlstack.cafe/blog/data-analyst-interview-questions
 https://www.mlstack.cafe/blog/reinforcement-learning-interview-questions
 https://www.mlstack.cafe/blog/computer-vision-interview-questions
 https://www.mlstack.cafe/blog/ml-design-patterns-interview-questions
+
+
 
 20 Probability Interview Problems Asked By Top-Tech Companies & Wall Street
 
@@ -3826,6 +3832,1885 @@ The right answers will serve as a testament for your commitment to being a lifel
 
 Reference: Deep Learning (Ian Goodfellow, Yoshua Bengio and Aaron Courville) -- MIT
 
+
+
+[![HitCount](http://hits.dwyl.io/{username}/{repo}.svg)](http://hits.dwyl.io/{rbhatia46}/{Data-Science-Interview-Resources})
+![Star this repository](https://img.shields.io/github/stars/rbhatia46/Data-Science-Interview-Resources?style=social)
+
+
+# Data-Science-Interview-Resources
+
+First of all, thanks for visiting this repo, congratulations on making a great career choice, I aim to help you land an amazing Data Science job that you have been dreaming for, by sharing my experience, interviewing heavily at both large product-based companies and fast-growing startups, hope you find it useful.
+
+With an increase in demand for so many Data Scientists, it's really hard to successfully get screened and accepted for an interview. In this repo, I include everything from getting successfully screened and rocking that interview to land that amazing position, make sure to nail it with the following resources.
+
+Every Resource I list here is personally verified by me and most of them I have used personally, which have helped me a lot.
+
+**Word of Caution:** Data Science/Machine Learning has a very big domain and there are a lot of things to learn. This by no means is an exhaustive list and is just for helping you out if you are struggling to find some good resources to start your preparation. However, I try to cover and update this frequently and my goal is to cover and unify everything into one resource that you can use to rock those interviews! Please leave a star if you appreciate the effort.
+
+**Note:** For contribution, refer [Contribution.md](https://github.com/rbhatia46/Data-Science-Interview-Resources/blob/master/Contribution.md)
+
+## How to get an interview ?
+
+* First and foremost, **develop the necessary skills and be sound with the fundamentals**, these are some of the horizons you should be extremely comfortable with - 
+  - Business Understanding(this is extremely critical across all seniority levels, but specifically for people with more than 3 years of experience)
+  - SQL and Databases(very crucial)
+  - Programming Skills(preferably in Python, if you know Scala, extra brownie points for some specific roles)
+  - Mathematics(Probability, Statistics, Linear Algebra and Calculus) - https://medium.com/@rbhatia46/essential-probability-statistics-concepts-before-data-science-bb787b7a5aef 
+  - Machine Learning(this includes Deep Learning) and Model building
+  - Data Structures and Algorithms(must and mandatory for top product based companies like FAANG)
+  - Domain Understanding(Optional for most openings, though very critical for some roles based on company's requirement)
+  - Literature Review(must for Research based roles) : Being able to read and understand a new research paper is one of the most essential and demanding skills needed in the industry today, as the culture of Research and Development, and innovation grows across most good organizations.
+  - Communication Skills - Being able to explain the analysis and results to business stakeholders and executives is becoming a really important skill for Data Scientists these days
+  - Some Engineering knowledge(Not mandatory, but good to have) - Being able to develop a RESTful API, writing clean and elegant code, Object Oriented programming are some of the things you can focus on for some extra brownie points.
+  - Big data knowledge(not mandatory for most openings, but good to have) - Spark, Hive, Hadoop, Sqoop.
+
+* **Build a personal Brand** 
+  - Develop a good GitHub/portfolio of use-cases you have solved, always strive for solving end-to-end use cases, which demonstrate the entire Data Science lifecycle, from business understanding to model deployment. 
+  - Write blogs, start a YouTube channel if you enjoy teaching, write a book.
+  - Work on a digital, easy-to-open, easy-to-read, clean, concise and easily customizable Resume/CV, always include your demo links and source code of every use-case you have solved.
+  - Participate in Kaggle competitions, build a good Kaggle profile and send them to potential employers for increasing the chances of getting an interview call real-quick.
+
+* **Develop good connections**, through LinkedIn, by attending conferences, and doing everything you can, it's very important to land referrals and get yourself started with the interview process through good connections. Connect regularly with Data Scientists working at top product-based organizations, fast-growing startups, build a network, slowly and steadily, it's very important.`
+
+## Some Tips on Resume/CV:
+* Describe past roles and an impact you made in a **quantifiable** way, be concise and I repeat, **quantify** the impact, rather than talking with facts that have no relevance. According to Google Recruiters, use the XYZ formula - 
+```Accomplished [X] as measured by [Y], by doing [Z]```
+
+* Keep it short, ideally not more than 2 pages, as you might know, an average recruiter scans your resume only for 6 seconds, and makes a decision based on that.
+
+* If you are a fresher and don't have experience, try to solve end-to-end use-cases and mention them in your CV, preferably with the demo link(makes it easy for the recruiter) and the link to source code on GitHub.
+
+* Avoid too much technical jargon, and this goes without saying, do not mention anything you are not confident about, this might become a major bottleneck during your interview.
+
+* Some helpful links :
+  * [Advice on building Data Portfolio Projects](https://medium.com/@jasonkgoodman/advice-on-building-data-portfolio-projects-c5f96d8a0627) 📘
+  * [How to write a killer Software Engineering Resume](https://www.freecodecamp.org/news/writing-a-killer-software-engineering-resume-b11c91ef699d/) 📘
+  * [Get your Data Science Resume past the ATS](https://towardsdatascience.com/up-level-your-data-science-resume-getting-past-ats-64322f0cbb73) 📘
+  * [How to write a developer résumé that hiring managers will actually read](https://www.freecodecamp.org/news/how-to-write-a-resume-that-works/) 📘
+
+***
+
+## Probability and Statistics
+* [Understand the basics of Descriptive Statistics(Really Important for an interview)](https://towardsdatascience.com/understanding-descriptive-statistics-c9c2b0641291) 📘
+* [40 Question on **probability** for a Data Science Interview](https://www.analyticsvidhya.com/blog/2017/04/40-questions-on-probability-for-all-aspiring-data-scientists/) 📘
+* [40 Statistics Interview Problems and Answers for Data Scientists](https://towardsdatascience.com/40-statistics-interview-problems-and-answers-for-data-scientists-6971a02b7eee) 📘
+* [Probability and Statistics in the context of Deep Learning](https://towardsdatascience.com/probability-and-statistics-explained-in-the-context-of-deep-learning-ed1509b2eb3f) 📘
+* [Probability v/s Likelihood](https://www.youtube.com/watch?v=pYxNSUDSFH4) 📹
+* [Bootstrap Methods - The Swiss Army Knife of any Data Scientist](https://medium.com/data-science-journal/the-bootstrap-the-swiss-army-knife-of-any-data-scientist-acd6e592be13) 📘
+* [Confidence Intervals Explained Simply for Data Scientists](https://mlwhiz.com/blog/2020/02/21/ci/) 📘
+* [P-value Explained Simply for Data Scientists](https://towardsdatascience.com/p-value-explained-simply-for-data-scientists-4c0cd7044f14) 📘
+* [PDF is not a probability](https://towardsdatascience.com/pdf-is-not-a-probability-5a4b8a5d9531) 📘
+* [5 Sampling algorithms every Data Scientist should know](https://mlwhiz.com/blog/2019/07/30/sampling/) 📘
+* [The 10 Statistical Techniques Data Scientists Need to Master](https://www.kdnuggets.com/2017/11/10-statistical-techniques-data-scientists-need-master.html) 📘
+
+***
+
+## SQL and Data Acquisition
+This is probably the entry point of your Data Science project, SQL is one of the most important skills for any Data Scientist.
+
+* [5 Common SQL Interview Problems for Data Scientists](https://towardsdatascience.com/5-common-sql-interview-problems-for-data-scientists-1bfa02d8bae6) 📘
+* [46 Questions to test a Data Scientist on SQL](https://www.analyticsvidhya.com/blog/2017/01/46-questions-on-sql-to-test-a-data-science-professional-skilltest-solution/) 📘
+* [30 SQL Interview Questions curated for FAANG by an Ex-Facebook Data Scientist](https://www.nicksingh.com/posts/30-sql-and-database-design-questions-from-real-data-science-interviews) 📘
+* [SQL Interview Questions](https://365datascience.com/sql-interview-questions/) 📘
+* [How to ace Data Science Interviews - SQL](https://towardsdatascience.com/how-to-ace-data-science-interviews-sql-b71de212e433) 📘
+* [3 Must Know SQL Questions to pass your Data Science Interview](https://medium.com/@jayfeng/three-must-know-sql-questions-to-pass-your-data-science-interview-463311c7eaea) 📘
+* [10 frequently asked SQL Queries in Interviews](https://www.java67.com/2013/04/10-frequently-asked-sql-query-interview-questions-answers-database.html) 📘
+* [Technical Data Science Interview Questions: SQL and Coding](https://hackernoon.com/technical-data-science-interview-questions-sql-and-coding-jv1k32bf) 📘
+* [How to optimize SQL Queries - Datacamp](https://www.datacamp.com/community/tutorials/sql-tutorial-query) 📘
+* [Ten SQL Concepts You Should Know for Data Science Interviews](https://towardsdatascience.com/ten-sql-concepts-you-should-know-for-data-science-interviews-7acf3e428185) 📘
+
+***
+## Data Preparation and Visualization
+
+* [5 Feature Selection Algorithms every Data Scientist should know](https://towardsdatascience.com/the-5-feature-selection-algorithms-every-data-scientist-need-to-know-3a6b566efd2) 📘 
+* [6 Different Ways to Compensate for Missing Values In a Dataset ](https://towardsdatascience.com/6-different-ways-to-compensate-for-missing-values-data-imputation-with-examples-6022d9ca0779) 📘 
+* [A Brief Overview of Outlier Detection Techniques](https://towardsdatascience.com/a-brief-overview-of-outlier-detection-techniques-1e0b2c19e561) 📘 
+* [Cleaning and Prepping Data with Python for Data Science — Best Practices and Helpful Packages](https://medium.com/@rrfd/cleaning-and-prepping-data-with-python-for-data-science-best-practices-and-helpful-packages-af1edfbe2a3) 📘 
+* [When to use which plot for visualization](https://towardsdatascience.com/what-plot-why-this-plot-and-why-not-9508a0cb35ea) 📘
+* [Ways to detect and remove Outliers](https://towardsdatascience.com/ways-to-detect-and-remove-the-outliers-404d16608dba) 📘
+* [Dealing with Class Imbalances in Machine Learning](https://towardsdatascience.com/dealing-with-imbalanced-classes-in-machine-learning-d43d6fa19d2) 📘
+* [Smarter ways to encode categorical data](https://towardsdatascience.com/smarter-ways-to-encode-categorical-data-for-machine-learning-part-1-of-3-6dca2f71b159)
+* [Numpy and Pandas Cheatsheet](https://github.com/jessicayung/data-analyst-nd/blob/master/2-intro-to-data-analysis/numpy_pandas_cheatsheet.pdf) 📘
+* [3 Methods to deal with outliers](https://www.kdnuggets.com/2017/01/3-methods-deal-outliers.html) 📘
+* [Feature Selection Techniques](https://towardsdatascience.com/feature-selection-techniques-in-machine-learning-with-python-f24e7da3f36e) 📘
+* [Why, how and When to scale your features](https://medium.com/greyatom/why-how-and-when-to-scale-your-features-4b30ab09db5e) 📘
+* [Everything you need to know about Scatter plots](https://towardsdatascience.com/everything-you-need-to-know-about-scatter-plots-for-data-visualisation-924144c0bc5) 📘
+* [How to Select Features for Machine Learning](https://www.youtube.com/watch?v=YaKMeAlHgqQ) 📹
+* [10 ways for Feature Selection](https://www.youtube.com/watch?v=Erp0bjEPoM8) 📹
+
+
+
+***
+## Classic Machine Learning Algorithms
+
+### 1. Logistic Regression
+
+* [All about Logistic Regression in one article](https://towardsdatascience.com/logistic-regression-b0af09cdb8ad) 📘 
+* [Understanding Logistic Regression step-by-step](https://towardsdatascience.com/understanding-logistic-regression-step-by-step-704a78be7e0a) 📘 
+* [Logistic Regression - Short and Clear Explanation - 9 Mins](https://www.youtube.com/watch?v=yIYKR4sgzI8) 📹
+* [Linear Regression vs Logistic Regression](https://www.youtube.com/watch?v=OCwZyYH14uw) 📹
+* [30 Questions to test a Data Scientist on Logistic Regression](https://www.analyticsvidhya.com/blog/2017/08/skilltest-logistic-regression/) 📘 
+* [Logistic Regression - Understand Everything (Theory + Maths + Coding) in 1 video](https://www.youtube.com/watch?v=VCJdg7YBbAQ) 📹
+
+
+### 2. Linear Regression
+
+* [30 Questions to test a Data Scientist on Linear Regression](https://www.analyticsvidhya.com/blog/2017/07/30-questions-to-test-a-data-scientist-on-linear-regression/) 📘 
+* [Linear Regression - Understand Everything (Theory + Maths + Coding) in 1 video](https://www.youtube.com/watch?v=E5RjzSK0fvY) 📹
+* [5 Types of Regression and their properties](https://towardsdatascience.com/5-types-of-regression-and-their-properties-c5e1fa12d55e) 📘
+* [Ridge Regression - Clearly Explained](https://www.youtube.com/watch?v=Q81RR3yKn30) 📹
+* [Lasso Regression - Clearly Explained](https://www.youtube.com/watch?v=NGf0voTMlcs) 📹
+
+
+### 3. Tree Based/Ensemble Algorithms
+
+* [30 Questions to test a Data Scientist on Tree based models](https://www.analyticsvidhya.com/blog/2017/09/30-questions-test-tree-based-models/) 📘
+* [Gini-index v/s Information Entropy](https://towardsdatascience.com/gini-index-vs-information-entropy-7a7e4fed3fcb) 📘
+* [Decision Tree vs. Random Forest – Which Algorithm Should you Use?](https://www.analyticsvidhya.com/blog/2020/05/decision-tree-vs-random-forest-algorithm/) 📘
+* [Why Random Forest doesn't work well for Time-Series?](https://medium.com/datadriveninvestor/why-wont-time-series-data-and-random-forests-work-very-well-together-3c9f7b271631) 📘
+* [Comprehensive guide to Ensemble Models](https://www.analyticsvidhya.com/blog/2018/06/comprehensive-guide-for-ensemble-models/) 📘
+* [The Simple Math behind 3 Decision Tree Splitting criterions](https://mlwhiz.com/blog/2019/11/12/dtsplits/) 📘
+
+
+### 4. K-Nearest-Neighbors
+
+* [Fundamental Interview Questions on KNN - A Quick refresh](http://theprofessionalspoint.blogspot.com/2019/01/knn-algorithm-in-machine-learning.html) 📘
+* [30 Questions to test a Data Scientist on KNN](https://www.analyticsvidhya.com/blog/2017/09/30-questions-test-k-nearest-neighbors-algorithm/) 📘
+* [Pros and Cons of KNN](https://www.fromthegenesis.com/pros-and-cons-of-k-nearest-neighbors/) 📘
+* [KNN Algorithm - Understand Everything (Theory + Maths + Coding) in 1 video](https://www.youtube.com/watch?v=6kZ-OPLNcgE) 📹
+
+### 5. Support Vector Machines
+
+* [All about SVMs - Math, Terminology, Intuition, Kernels in one article](https://towardsdatascience.com/support-vector-machines-svm-c9ef22815589) 📘
+* [25 Questions to test a Data Scientist on SVMs](https://www.analyticsvidhya.com/blog/2017/10/svm-skilltest/) 📘
+
+### 6. Naive Bayes
+
+* [12 tips to make most out of Naive Bayes](https://machinelearningmastery.com/better-naive-bayes/) 📘
+* [Naive Bayes - Understand Everything (Theory + Maths + Coding) in 1 video](https://www.youtube.com/watch?v=vz_xuxYS2PM) 📹
+* [6 easy steps to learn Naive Bayes](https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/) 📘
+
+
+***
+## Time Series
+* [40 Questions to test a Data Scientist on Time Series](https://www.analyticsvidhya.com/blog/2017/04/40-questions-on-time-series-solution-skillpower-time-series-datafest-2017/) 📘
+* [11 Classical Time Series Forecasting Methods](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/) 📘
+* [Interview Questions on ARIMA](https://www.youtube.com/watch?v=654SjiZO5ks) 📹
+
+***
+## Unsupervised Learning
+* [The DOs and DONTs of PCA(Principal Component Analysis)](https://medium.com/@sadatnazrul/the-dos-and-donts-of-principal-component-analysis-7c2e9dc8cc48) 📘
+* [An introduction to t-SNE : DataCamp](https://www.datacamp.com/community/tutorials/introduction-t-sne) 📘
+* [Dimensionally Reducing Squeezing out the good stuff](https://www.youtube.com/watch?v=4QMFNg7tjbk) 📘
+* [Dimensionality Reduction for Dummies : Part 1 - Intuition](https://towardsdatascience.com/https-medium-com-abdullatif-h-dimensionality-reduction-for-dummies-part-1-a8c9ec7b7e79) 📘
+* [In-depth Explanation of DBSCAN Algorithm](https://towardsdatascience.com/explaining-dbscan-clustering-18eaf5c83b31) 📘
+
+***
+## Recommender Systems
+* [Recommender Systems in a Nutshell](https://www.kdnuggets.com/2020/07/recommender-systems-nutshell.html)
+
+***
+## Deep Learning
+* [Why Regularization reduces overfitting in Deep Neural Networks](https://www.youtube.com/watch?v=4nqD5TBlOWU) 📹
+* [Pros and Cons of Neural Networks](https://towardsdatascience.com/hype-disadvantages-of-neural-networks-6af04904ba5b) 📘
+* [When not to use Neural Networks](https://medium.com/datadriveninvestor/when-not-to-use-neural-networks-89fb50622429) 📘
+* [40 Questions to test a Data Scientist on Deep learning](https://www.analyticsvidhya.com/blog/2017/04/40-questions-test-data-scientist-deep-learning/) 📘
+* [21 Popular Deep Learning Interview Questions](https://www.analyticsvidhya.com/blog/2020/04/comprehensive-popular-deep-learning-interview-questions-answers/) 📘
+* [Deep Learning Interview Questions - Edureka](https://www.youtube.com/watch?v=HGXlFG_Rz4E) 📹
+* [Activation Functions in a Neural Network - Explained](https://towardsdatascience.com/activation-functions-neural-networks-1cbd9f8d91d6) 📘
+* [Vanishing and Exploding Gradient - Clearly Explained](https://www.youtube.com/watch?v=qO_NLVjD6zE) 📹
+* [Bias and Variance - Very clearly explained](https://www.youtube.com/watch?v=EuBBz3bI-aA) 📹
+* [Why use ReLU over Sigmoid](https://stats.stackexchange.com/questions/126238/what-are-the-advantages-of-relu-over-sigmoid-function-in-deep-neural-networks) 📘
+* [25 Deep Learning Interview Qurstions to test your knowledge](https://towardsdatascience.com/50-deep-learning-interview-questions-part-1-2-8bbc8a00ec61) 📘
+* [10 Deep Learning Best Practices to Keep in Mind in 2020](https://nanonets.com/blog/10-best-practices-deep-learning/) 📘
+
+***
+## Machine Learning Interpretability
+* [Four Questions on Deciphering the World of Machine Learning Models](https://narrativescience.com/resource/blog/machine-learning-models/) 📘
+* [Machine Learning Explanaibility - Crash Course by Kaggle](https://www.kaggle.com/learn/machine-learning-explainability) 📘
+* [SHAP Values explained simply](https://www.youtube.com/watch?v=VB9uV-x0gtg) 📹
+
+***
+## Case Studies
+Case studies are extremely important for interviews, below are some resources to practice, think first before looking at the solutions.
+* [Dawn of Taxi Aggregators](https://www.analyticsvidhya.com/blog/2016/04/case-study-analytics-interviews-dawn-taxi-aggregators/) 📘
+* [Optimizing product prices for an online vendor](https://www.analyticsvidhya.com/blog/2016/07/solving-case-study-optimize-products-price-online-vendor-level-hard/) 📘
+* [Tips for a Case-Study Interview](https://workera.ai/resources/data-science-case-study-interview/) 📘
+* [Mercari Price Prediction](https://towardsdatascience.com/a-data-science-case-study-with-python-mercari-price-prediction-4e852d95654) 📘
+* [End-to-End multiclass Text Classification pipeline](https://mlwhiz.com/blog/2020/05/24/multitextclass/) 📘
+* [End-to-End multiclass Image Classification pipeline](https://mlwhiz.com/blog/2020/06/06/multiclass_image_classification_pytorch/) 📘
+* [Large Scale Forecasting for 1000+ products - Nagarro](https://www.youtube.com/watch?v=8jfDBD6xlFM) 📹
+* [Clustering and Classification in E-Commerce](https://lucidworks.com/post/clustering-classification-supervised-unsupervised-learning-ecommerce/) 📘
+* [The ABCs of Learning to Rank](https://lucidworks.com/post/abcs-learning-to-rank/) 📘
+* [Data Science Case Study: Optimizing Product Placement in Retail ](https://towardsdatascience.com/data-science-case-study-optimizing-product-placement-in-retail-part-1-2e8b27e16e8d) 📘
+
+***
+## NLP
+* [30 Questions to test a Data Scientist on NLP](https://www.analyticsvidhya.com/blog/2017/07/30-questions-test-data-scientist-natural-language-processing-solution-skilltest-nlp/)
+* [11 Most Commonly Asked NLP Interview Questions For Beginners](https://analyticsindiamag.com/11-most-commonly-asked-nlp-interview-questions-for-beginners/)
+* [How to solve 90% of NLP Problems](https://blog.insightdatascience.com/how-to-solve-90-of-nlp-problems-a-step-by-step-guide-fda605278e4e)
+* [Questions asked for NLP Roles at Companies](https://medium.com/modern-nlp/nlp-interview-questions-f062040f32f7)
+
+***
+## Data Science Interviews at FAANG and Similar Companies
+* [Amazon’s Data Scientist Interview Practice Problems](https://towardsdatascience.com/amazon-data-scientist-interview-practice-problems-15b9b86e86c6) 📘
+* [Microsoft Data Science Interview Questions and Answers](https://towardsdatascience.com/microsoft-data-science-interview-questions-and-answers-69ccac16bd9b) 📘
+* [Problem Solving Questions for Data Science interview at Google](https://towardsdatascience.com/googles-data-science-interview-brain-teasers-7f3c1dc4ea7f) 📘
+
+***
+## Becoming a Rockstar Data Scientist(read if you have extra time)
+Going through these will definately add extra brownie points, so don't miss these if you got time.
+
+* [Top 13 Skills To Become a Rockstar Data Scientist](https://towardsdatascience.com/top-13-skills-to-become-a-rockstar-data-scientist-faf2f97e655d) 📘 
+* [Understand these 4 ML concepts to sound like a master](https://towardsdatascience.com/understand-these-4-advanced-concepts-to-sound-like-a-machine-learning-master-d32843840b52) 📘
+* [12 things I wish I knew before starting as a Data Scientist](https://medium.com/deliberate-data-science/12-things-i-wish-id-known-before-starting-as-a-data-scientist-45989be6300e) 📘
+* [Understand the Data Science pipeline](https://towardsdatascience.com/a-beginners-guide-to-the-data-science-pipeline-a4904b2d8ad3) 📘
+* [Kaggle Data Science Glossary](https://www.kaggle.com/shivamb/data-science-glossary-on-kaggle) 📘
+* [Google Machine Learning Glossary](https://developers.google.com/machine-learning/glossary/) 📘
+* [Running your ML Predictions 50 times faster - Hummingbird](https://mlwhiz.com/blog/2020/06/06/hummingbird_faster_ml_preds/) 📘
+* [3 Mistakes you should not make in a Data Science Interview](https://mlwhiz.com/blog/2019/12/24/mistakes/) 📘
+* [How to find Feature importances for BlackBox Models?](https://mlwhiz.com/blog/2019/12/04/blackbox/) 📘
+
+***
+
+## Data Structures and Algorithms(Optional)
+Although this might be optional, but do not miss this if the Job Description explicitly asks for this, and especially never miss this if you are interviewing at FAANG and similar organizations, or if you have a CS Background. You don't have to be as good as an SDE at this, but at least know the basics.
+
+* [A Data Scientist's guide to Data Structures and Algorithms](https://towardsdatascience.com/a-data-scientists-guide-to-data-structures-algorithms-1176395015a0) 📘
+* [Handling Trees in Data Science Algorithmic Interview](https://towardsdatascience.com/handling-trees-in-data-science-algorithmic-interview-ea14dd1b6236) 📘
+* [A simple introduction to Linked Lists for Data Scientists](https://mlwhiz.com/blog/2020/01/28/ll/) 📘
+* [Dynamic Programming for Data Scientists](https://mlwhiz.com/blog/2020/01/28/dp/) 📘
+* [3 Programming concepts for Data Scientists](https://mlwhiz.com/blog/2019/12/09/pc/) 📘
+* [Data Scientists, The 5 Graph Algorithms that you should know](https://mlwhiz.com/blog/2019/09/02/graph_algs/) 📘
+
+***
+## Engineering and Deployment
+* [A Layman’s Guide for Data Scientists to create APIs in minutes](https://mlwhiz.com/blog/2020/06/06/fastapi_for_data_scientists/) 📘
+* [Take your Machine Learning Models to Production with these 5 simple steps](https://mlwhiz.com/blog/2019/12/25/prod/) 📘
+* [2 way to deploy your ML models](https://towardsdatascience.com/there-are-two-very-different-ways-to-deploy-ml-models-heres-both-ce2e97c7b9b1) 📘
+* [How to deploy a Keras model as a web app through Flask](https://towardsdatascience.com/deploying-a-keras-deep-learning-model-as-a-web-application-in-p-fc0f2354a7ff) 📘
+* [How to write Web apps using simple Python for Data Scientists?](https://towardsdatascience.com/how-to-write-web-apps-using-simple-python-for-data-scientists-a227a1a01582) 📘
+
+***
+## Big Data and Spark
+* [55 Apache Spark Interview Questions](https://www.edureka.co/blog/interview-questions/top-apache-spark-interview-questions-2016/) 📘
+* [10 Questions you can expect in a Spark Interview](https://medium.com/analytics-vidhya/10-questions-you-can-expect-in-spark-interview-24b89b807dfb) 📘
+* [Hive Interview Questions](https://www.tutorialspoint.com/hive/hive_interview_questions.htm) 📘
+* [Top 20 Apache Spark Interview Questions](https://www.youtube.com/watch?v=Y8LKEDyA5iY) 📹
+* [Spark Interview Questions - The entire playlist](https://www.youtube.com/playlist?list=PLtfmIPhU2DkNjQjL08kR3cd4kUzWqS0vg) 📹
+* [Another fabulous Playlist for Spark Interview Questions](https://www.youtube.com/playlist?list=PL9sbKmQTkW05mXqnq1vrrT8pCsEa53std) 📹
+* [Practical PySpark tips for Data Scientists](https://towardsdatascience.com/practical-spark-tips-for-data-scientists-145d85e9b2d8) 📘
+* [3 Ways to parallelize your code using Spark](https://towardsdatascience.com/3-methods-for-parallelization-in-spark-6a1a4333b473) 📘
+* [Datashader - Revealing the Structure of Genuinely Big Data](https://www.youtube.com/watch?v=6m3CFbKmK_c) 📹
+* [Lightnings Talk : What one should know about Spark-MLlib](https://www.youtube.com/watch?v=DBxcua0Vmvk) 📹
+* [Solving “Container Killed by Yarn For Exceeding Memory Limits” Exception in Apache Spark](https://medium.com/analytics-vidhya/solving-container-killed-by-yarn-for-exceeding-memory-limits-exception-in-apache-spark-b3349685df16) 📘
+
+***
+## Some amazing stuff on Python and Spark 
+You can't afford to miss this if you are interviewing for a Big data role.
+* [Improving Python and Spark performance](https://www.youtube.com/watch?v=qIKImANLFtE) 📹
+* [High Performance Python on Spark](https://www.youtube.com/watch?v=abZ0f5ug18U) 📹
+* [Vectorized UDFs: Scalable Analysis with Python and PySpark](https://www.youtube.com/watch?v=Til-StSDvfA) 📹
+
+***
+## General Interview Questions across the Spectrum (Video)
+
+* [Common Data Science Interview Questions - Edureka](https://www.youtube.com/watch?v=tTAieUcNHdY)
+* [Common Machine Learning Interview Question - Edureka](https://www.youtube.com/watch?v=t6gOpFLt-Ks)
+* [Top 5 algorithms used in Data Science](https://www.youtube.com/watch?v=BfowBtIxNu4) 
+* [Common Data Science Interview Questions - Analytics University](https://www.youtube.com/watch?v=BfowBtIxNu4) 
+* [3 types of Data Science Interview Questions](https://www.youtube.com/watch?v=4Z6lxfglvUU)
+* [Lessons learned the hard way - Hacking the Data Science Interview](https://www.youtube.com/watch?v=3BRLGRqj8p)
+* [What it's like to Interview as a Data Scientist](https://www.youtube.com/watch?v=0HmAEWPfMnM)
+* [5 Tips for getting a Data Science Job](https://www.youtube.com/watch?v=MfP-P8EHGBo)
+* [8 Frequently used Data Science Algorithms](https://www.youtube.com/watch?v=z3wMgOTSE5s) 
+* [Scenario Based Practical Interview](https://www.youtube.com/watch?v=bJPhEa3mbwo)
+* [KNN v/s K Means](https://www.youtube.com/watch?v=OClrEI_5Ri4)
+
+
+## General Interview Questions across the Spectrum (Reading)
+* [The Data Science Interview Guide](https://towardsdatascience.com/data-science-interview-guide-4ee9f5dc778)
+* [Top 30 Data Science Interview Questions](https://towardsdatascience.com/top-30-data-science-interview-questions-7dd9a96d3f5c)
+* [35 Important Data Science Interview Questions](https://www.edureka.co/blog/interview-questions/data-science-interview-questions/)
+* [100 Data Science Interview Questions across FAANG](https://medium.com/@e22aafa7d95/c5a66186769a)
+* [The Most Comprehensive Data Science Interview Guide](https://www.analyticsvidhya.com/blog/2018/06/comprehensive-data-science-machine-learning-interview-guide/)
+* [41 essential ML interview questions - Springboard](https://www.springboard.com/blog/machine-learning-interview-questions/)
+* [30 days of Data Science Interview Preparation - iNeuron](https://github.com/iNeuronai/interview-question-data-science-)
+* [109 Data Science Interview Questions - Springboard](https://www.springboard.com/blog/data-science-interview-questions/)
+* [Most asked Data Science interview questions in India - Springboard](https://in.springboard.com/blog/most-asked-data-science-interview-questions-in-india/)
+* [List of AI Startups in India and resources for preparing for the interview](https://github.com/theainerd/MLInterview)
+* [5 interview questions to predict a good Data Scientist](https://medium.com/predict/five-interview-questions-to-predict-a-good-data-scientist-40d310cdcd68)
+* [8 proven ways to improve the accuracy of your ML model ](https://www.analyticsvidhya.com/blog/2015/12/improve-machine-learning-results/)
+* [60 Interview Questions on Machine Learning - AnalyticsIndiaMag](https://analyticsindiamag.com/60-interview-questions-on-machine-learning/)
+* [The Big List of DS and ML interview Resources](https://towardsdatascience.com/the-big-list-of-ds-ml-interview-resources-2db4f651bd63)
+* [100 Basic Data Science Interview Questions along with answers](https://www.dezyre.com/article/100-data-science-interview-questions-and-answers-general-for-2018/184)
+* [40 interview questions asked at Startups in ML/DS Interview](https://www.analyticsvidhya.com/blog/2016/09/40-interview-questions-asked-at-startups-in-machine-learning-data-science/)
+* [My Data Science/Machine Learning Job Interview Experience : List of DS/ML/DL Questions &#8211; Machine Learning in Action](https://appliedmachinelearning.blog/2018/04/13/my-data-science-machine-learning-job-interview-experience-list-of-ds-ml-dl-questions/)
+* [How do I prepare for a Data Science phone interview at Airbnb](https://www.quora.com/How-do-I-prepare-for-a-phone-interview-for-a-data-scientist-position-with-Airbnb)
+* [Best ML algorithm for regression problems](https://towardsdatascience.com/selecting-the-best-machine-learning-algorithm-for-your-regression-problem-20c330bad4ef)
+* [How to ace the In person Data Science Interview](https://towardsdatascience.com/how-to-ace-the-in-person-data-science-interview-584ca11df08a)
+* [How to land a Data Scientist job at Airbnb](https://towardsdatascience.com/how-to-land-a-data-scientist-job-at-your-dream-company-my-journey-to-airbnb-f6a1e99892e8)
+* [120 Data Science Interview Questions(from all domains)](https://github.com/kojino/120-Data-Science-Interview-Questions)
+* [Understanding the Bias-Variance Tradeoff](https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229)
+* [You Need these Cheatsheets if you are tackling ML algorithms](https://medium.freecodecamp.org/you-need-these-cheat-sheets-if-youre-tackling-machine-learning-algorithms-45da5743888e)
+* [Red Flags in a Data Science Interview](https://towardsdatascience.com/red-flags-in-data-science-interviews-4f492bbed4c4)
+* [A Data Scientist's take on Interview Questions](https://towardsdatascience.com/my-take-on-data-scientist-interview-questions-part-1-6df22252b2e8)
+* [What is Cross Entropy(Nice and Short Explanation)](https://stackoverflow.com/questions/41990250/what-is-cross-entropy/41990932#41990932)
+* [What does an ideal Data Scientist's profile look like](https://towardsdatascience.com/what-does-an-ideal-data-scientists-profile-look-like-7d7bd78ff7ab)
+* [25 Fun Questions for a Machine Learning interview](https://medium.com/analytics-vidhya/25-fun-questions-for-a-machine-learning-interview-373b744a4faa)
+* [How to Prepare for Machine Learning Interviews](https://towardsdatascience.com/how-to-prepare-for-machine-learning-interviews-5fac3db58168)
+* [How to develop a Machine Learning Model from scratch](https://towardsdatascience.com/machine-learning-general-process-8f1b510bd8af)
+* [End to End guide for a Machine Learning Project](https://medium.com/fintechexplained/end-to-end-guide-for-machine-learning-project-146c288186dc)
+* [Classification v/s Regression](https://medium.com/fintechexplained/supervised-machine-learning-regression-vs-classification-18b2f97708de)
+* [Must Know mathematical measures for Every Data Scientist](https://medium.com/fintechexplained/must-know-mathematical-measures-for-data-scientist-15bfc4f7f39c)
+* [Where did the least square come from](https://towardsdatascience.com/where-did-the-least-square-come-from-3f1abc7f7caf)
+* [Regularization in Machine Learning - Explained](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a)
+
+
+***
+## Interesting Reads
+* [3 Common Data Science Career Transitions and how to make them happen](https://towardsdatascience.com/3-common-data-science-career-transitions-and-how-to-make-them-happen-588c3618942f)
+* [Navigating the Data Science Career Landscape](https://hackernoon.com/navigating-the-data-science-career-landscape-db746a61ac62)
+* [Which model and how much data](https://towardsdatascience.com/which-model-and-how-much-data-75a3999660f3)
+
+
+## Data Analysis (27 questions)
+
+#### 1. (Given a Dataset) Analyze this dataset and tell me what you can learn from it.
+#### 2. What is R2? What are some other metrics that could be better than R2 and why?
+  - goodness of fit measure. variance explained by the regression / total variance
+  - the more predictors you add the higher R^2 becomes.
+    - hence use adjusted R^2 which adjusts for the degrees of freedom 
+    - or train error metrics
+#### 3. What is the curse of dimensionality?
+  - High dimensionality makes clustering hard, because having lots of dimensions means that everything is "far away" from each other.
+  - For example, to cover a fraction of the volume of the data we need to capture a very wide range for each variable as the number of variables increases
+  - All samples are close to the edge of the sample. And this is a bad news because prediction is much more difficult near the edges of the training sample.
+  - The sampling density decreases exponentially as p increases and hence the data becomes much more sparse without significantly more data. 
+  - We should conduct PCA to reduce dimensionality
+#### 4. Is more data always better?
+  - Statistically,
+    - It depends on the quality of your data, for example, if your data is biased, just getting more data won’t help.
+    - It depends on your model. If your model suffers from high bias, getting more data won’t improve your test results beyond a point. You’d need to add more features, etc.
+  - Practically,
+    - Also there’s a tradeoff between having more data and the additional storage, computational power, memory it requires. Hence, always think about the cost of having more data.
+#### 5. What are advantages of plotting your data before per- forming analysis?
+  - 1) Data sets have errors.  You won't find them all but you might find some. That 212 year old man. That 9 foot tall woman.  
+
+2) Variables can have skewness, outliers etc.  Then the arithmetic mean might not be useful. Which means the standard deviation isn't useful.  
+
+3) Variables can be multimodal!  If a variable is multimodal then anything based on its mean or median is going to be suspect. 
+#### 6. How can you make sure that you don’t analyze something that ends up meaningless?
+  - Proper exploratory data analysis.  
+
+In every data analysis task, there's the exploratory phase where you're just graphing things, testing things on small sets of the data, summarizing simple statistics, and getting rough ideas of what hypotheses you might want to pursue further.  
+
+Then there's the exploitatory phase, where you look deeply into a set of hypotheses.   
+
+The exploratory phase will generate lots of possible hypotheses, and the exploitatory phase will let you really understand a few of them. Balance the two and you'll prevent yourself from wasting time on many things that end up meaningless, although not all.
+#### 7. What is the role of trial and error in data analysis? What is the the role of making a hypothesis before diving in?
+  - data analysis is a repetition of setting up a new hypothesis and trying to refute the null hypothesis.
+  - The scientific method is eminently inductive: we elaborate a hypothesis, test it and refute it or not. As a result, we come up with new hypotheses which are in turn tested and so on. This is an iterative process, as science always is.
+#### 8. How can you determine which features are the most im- portant in your model?
+  - run the features though a Gradient Boosting Machine or Random Forest to generate plots of relative importance and information gain for each feature in the ensembles.
+  - Look at the variables added in forward variable selection 
+#### 9. How do you deal with some of your predictors being missing?
+  - Remove rows with missing values - This works well if 1) the values are missing randomly (see [Vinay Prabhu's answer](https://www.quora.com/How-can-I-deal-with-missing-values-in-a-predictive-model/answer/Vinay-Prabhu-7) for more details on this) 2) if you don't lose too much of the dataset after doing so.
+  - Build another predictive model to predict the missing values - This could be a whole project in itself, so simple techniques are usually used here.
+  - Use a model that can incorporate missing data \- Like a random forest, or any tree-based method.
+#### 10. You have several variables that are positively correlated with your response, and you think combining all of the variables could give you a good prediction of your response. However, you see that in the multiple linear regression, one of the weights on the predictors is negative. What could be the issue?
+  - Multicollinearity refers to a situation in which two or more explanatory variables in a [multiple regression](https://en.wikipedia.org/wiki/Multiple_regression "Multiple regression") model are highly linearly related. 
+  - Leave the model as is, despite multicollinearity. The presence of multicollinearity doesn't affect the efficiency of extrapolating the fitted model to new data provided that the predictor variables follow the same pattern of multicollinearity in the new data as in the data on which the regression model is based.
+  - principal component regression
+#### 11. Let’s say you’re given an unfeasible amount of predictors in a predictive modeling task. What are some ways to make the prediction more feasible?
+  - PCA
+#### 12. Now you have a feasible amount of predictors, but you’re fairly sure that you don’t need all of them. How would you perform feature selection on the dataset?
+  - ridge / lasso / elastic net regression
+  - Univariate Feature Selection where a statistical test is applied to each feature individually. You retain only the best features according to the test outcome scores
+  - "Recursive Feature Elimination":  
+    - First, train a model with all the feature and evaluate its performance on held out data.
+    - Then drop let say the 10% weakest features (e.g. the feature with least absolute coefficients in a linear model) and retrain on the remaining features.
+    - Iterate until you observe a sharp drop in the predictive accuracy of the model.
+#### 13. Your linear regression didn’t run and communicates that there are an infinite number of best estimates for the regression coefficients. What could be wrong?
+  - p > n.
+  - If some of the explanatory variables are perfectly correlated (positively or negatively) then the coefficients would not be unique. 
+#### 14. You run your regression on different subsets of your data, and find that in each subset, the beta value for a certain variable varies wildly. What could be the issue here?
+  - The dataset might be heterogeneous. In which case, it is recommended to cluster datasets into different subsets wisely, and then draw different models for different subsets. Or, use models like non parametric models (trees) which can deal with heterogeneity quite nicely.
+#### 15. What is the main idea behind ensemble learning? If I had many different models that predicted the same response variable, what might I want to do to incorporate all of the models? Would you expect this to perform better than an individual model or worse?
+  - The assumption is that a group of weak learners can be combined to form a strong learner.
+  - Hence the combined model is expected to perform better than an individual model.
+  - Assumptions:
+    - average out biases
+    - reduce variance
+  - Bagging works because some underlying learning algorithms are unstable: slightly different inputs leads to very different outputs. If you can take advantage of this instability by running multiple instances, it can be shown that the reduced instability leads to lower error. If you want to understand why, the original bagging paper( [http://www.springerlink.com/cont...](http://www.springerlink.com/content/l4780124w2874025/)) has a section called "why bagging works"
+  - Boosting works because of the focus on better defining the "decision edge". By reweighting examples near the margin (the positive and negative examples) you get a reduced error (see http://citeseerx.ist.psu.edu/vie...)
+  - Use the outputs of your models as inputs to a meta-model.   
+
+For example, if you're doing binary classification, you can use all the probability outputs of your individual models as inputs to a final logistic regression (or any model, really) that can combine the probability estimates.  
+
+One very important point is to make sure that the output of your models are out-of-sample predictions. This means that the predicted value for any row in your dataframe should NOT depend on the actual value for that row.
+#### 16. Given that you have wi  data in your o ce, how would you determine which rooms and areas are underutilized and overutilized?
+  - If the data is more used in one room, then that one is over utilized! Maybe account for the room capacity and normalize the data.
+#### 17. How could you use GPS data from a car to determine the quality of a driver?
+#### 18. Given accelerometer, altitude, and fuel usage data from a car, how would you determine the optimum acceleration pattern to drive over hills?
+#### 19. Given position data of NBA players in a season’s games, how would you evaluate a basketball player’s defensive ability?
+#### 20. How would you quantify the influence of a Twitter user?
+  - like page rank with each user corresponding to the webpages and linking to the page equivalent to following.
+#### 21. Given location data of golf balls in games, how would construct a model that can advise golfers where to aim?
+#### 22. You have 100 mathletes and 100 math problems. Each mathlete gets to choose 10 problems to solve. Given data on who got what problem correct, how would you rank the problems in terms of di culty?
+  - One way you could do this is by storing a "skill level" for each user and a "difficulty level" for each problem.  We assume that the probability that a user solves a problem only depends on the skill of the user and the difficulty of the problem.*  Then we maximize the likelihood of the data to find the hidden skill and difficulty levels.
+  - The Rasch model for dichotomous data takes the form:  
+{\displaystyle \Pr\\{X_{ni}=1\\}={\frac {\exp({\beta _{n}}-{\delta _{i}})}{1+\exp({\beta _{n}}-{\delta _{i}})}},}  
+where  is the ability of person  and  is the difficulty of item}.
+#### 23. You have 5000 people that rank 10 sushis in terms of saltiness. How would you aggregate this data to estimate the true saltiness rank in each sushi?
+  - Some people would take the mean rank of each sushi.  If I wanted something simple, I would use the median, since ranks are (strictly speaking) ordinal and not interval, so adding them is a bit risque (but people do it all the time and you probably won't be far wrong).
+#### 24. Given data on congressional bills and which congressional representatives co-sponsored the bills, how would you determine which other representatives are most similar to yours in voting behavior? How would you evaluate who is the most liberal? Most republican? Most bipartisan?
+  - collaborative filtering. you have your votes and we can calculate the similarity for each representatives and select the most similar representative
+  - for liberal and republican parties, find the mean vector and find the representative closest to the center point
+#### 25. How would you come up with an algorithm to detect plagiarism in online content?
+  - reduce the text to a more compact form (e.g. fingerprinting, bag of words) then compare those with other texts by calculating the similarity
+#### 26. You have data on all purchases of customers at a grocery store. Describe to me how you would program an algorithm that would cluster the customers into groups. How would you determine the appropriate number of clusters to include?
+  - KMeans
+  - choose a small value of k that still has a low SSE (elbow method)
+  - <https://bl.ocks.org/rpgove/0060ff3b656618e9136b>
+#### 27. Let's say you're building the recommended music engine at Spotify to recommend people music based on past listening history. How would you approach this problem?
+  - [collaborative filtering](https://en.wikipedia.org/wiki/Collaborative_filtering)
+
+## Predictive Modeling (19 questions)
+#### 1. (Given a Dataset) Analyze this dataset and give me a model that can predict this response variable.
+- Start by fitting a simple model (multivariate regression, logistic regression), do some feature engineering accordingly, and then try some complicated models. Always split the dataset into train, validation, test dataset and use cross validation to check their performance.
+- Determine if the problem is classification or regression
+- Favor simple models that run quickly and you can easily explain.
+- Mention cross validation as a means to evaluate the model.
+- Plot and visualize the data.
+
+#### 2. What could be some issues if the distribution of the test data is significantly different than the distribution of the training data?
+- The model that has high training accuracy might have low test accuracy. Without further knowledge, it is hard to know which dataset represents the population data and thus the generalizability of the algorithm is hard to measure. This should be mitigated by repeated splitting of train vs test dataset (as in cross validation).
+- When there is a change in data distribution, this is called the dataset shift. If the train and test data has a different distribution, then the classifier would likely overfit to the train data.
+- This issue can be overcome by using a more general learning method.
+- This can occur when:
+  - P(y|x) are the same but P(x) are different. (covariate shift)
+  - P(y|x) are different. (concept shift)
+- The causes can be:
+  - Training samples are obtained in a biased way. (sample selection bias)
+  - Train is different from test because of temporal, spatial changes. (non-stationary environments)
+- Solution to covariate shift
+  - importance weighted cv
+#### 3. What are some ways I can make my model more robust to outliers?
+- We can have regularization such as L1 or L2 to reduce variance (increase bias).
+- Changes to the algorithm:
+  - Use tree-based methods instead of regression methods as they are more resistant to outliers. For statistical tests, use non parametric tests instead of parametric ones.
+  - Use robust error metrics such as MAE or Huber Loss instead of MSE.
+- Changes to the data:
+  - Winsorizing the data
+  - Transforming the data (e.g. log)
+  - Remove them only if you’re certain they’re anomalies not worth predicting
+
+#### 4. What are some differences you would expect in a model that minimizes squared error, versus a model that minimizes absolute error? In which cases would each error metric be appropriate?
+- MSE is more strict to having outliers. MAE is more robust in that sense, but is harder to fit the model for because it cannot be numerically optimized. So when there are less variability in the model and the model is computationally easy to fit, we should use MAE, and if that’s not the case, we should use MSE.
+- MSE: easier to compute the gradient, MAE: linear programming needed to compute the gradient
+- MAE more robust to outliers. If the consequences of large errors are great, use MSE
+- MSE corresponds to maximizing likelihood of Gaussian random variables
+
+#### 5. What error metric would you use to evaluate how good a binary classifier is? What if the classes are imbalanced? What if there are more than 2 groups?
+- Accuracy: proportion of instances you predict correctly. Pros: intuitive, easy to explain, Cons: works poorly when the class labels are imbalanced and the signal from the data is weak
+- AUROC: plot fpr on the x axis and tpr on the y axis for different threshold. Given a random positive instance and a random negative instance, the AUC is the probability that you can identify who's who. Pros: Works well when testing the ability of distinguishing the two classes, Cons: can’t interpret predictions as probabilities (because AUC is determined by rankings), so can’t explain the uncertainty of the model
+- logloss/deviance: Pros: error metric based on probabilities, Cons: very sensitive to false positives, negatives
+- When there are more than 2 groups, we can have k binary classifications and add them up for logloss. Some metrics like AUC is only applicable in the binary case.
+
+#### 6. What are various ways to predict a binary response variable? Can you compare two of them and tell me when one would be more appropriate? What’s the difference between these? (SVM, Logistic Regression, Naive Bayes, Decision Tree, etc.)
+- Things to look at: N, P, linearly seperable?, features independent?, likely to overfit?, speed, performance, memory usage
+- Logistic Regression
+  - features roughly linear, problem roughly linearly separable
+  - robust to noise, use l1,l2 regularization for model selection, avoid overfitting
+  - the output come as probabilities
+  - efficient and the computation can be distributed
+  - can be used as a baseline for other algorithms
+  - (-) can hardly handle categorical features
+- SVM
+  - with a nonlinear kernel, can deal with problems that are not linearly separable
+  - (-) slow to train, for most industry scale applications, not really efficient
+- Naive Bayes
+  - computationally efficient when P is large by alleviating the curse of dimensionality
+  - works surprisingly well for some cases even if the condition doesn’t hold
+  - with word frequencies as features, the independence assumption can be seen reasonable. So the algorithm can be used in text categorization
+  - (-) conditional independence of every other feature should be met
+- Tree Ensembles
+  - good for large N and large P, can deal with categorical features very well
+  - non parametric, so no need to worry about outliers
+  - GBT’s work better but the parameters are harder to tune
+  - RF works out of the box, but usually performs worse than GBT
+- Deep Learning
+  - works well for some classification tasks (e.g. image)
+  - used to squeeze something out of the problem
+
+#### 7. What is regularization and where might it be helpful? What is an example of using regularization in a model?
+- Regularization is useful for reducing variance in the model, meaning avoiding overfitting . For example, we can use L1 regularization in Lasso regression to penalize large coefficients.
+
+#### 8. Why might it be preferable to include fewer predictors over many?
+- When we add irrelevant features, it increases model's tendency to overfit because those features introduce more noise. When two variables are correlated, they might be harder to interpret in case of regression, etc.
+- curse of dimensionality
+- adding random noise makes the model more complicated but useless
+- computational cost
+- Ask someone for more details.
+
+#### 9. Given training data on tweets and their retweets, how would you predict the number of retweets of a given tweet after 7 days after only observing 2 days worth of data?
+- Build a time series model with the training data with a seven day cycle and then use that for a new data with only 2 days data.
+- Ask someone for more details.
+- Build a regression function to estimate the number of retweets as a function of time t
+- to determine if one regression function can be built, see if there are clusters in terms of the trends in the number of retweets
+- if not, we have to add features to the regression function
+- features + # of retweets on the first and the second day -> predict the seventh day
+- https://en.wikipedia.org/wiki/Dynamic_time_warping
+
+#### 10. How could you collect and analyze data to use social media to predict the weather?
+- We can collect social media data using twitter, Facebook, instagram API’s. Then, for example, for twitter, we can construct features from each tweet, e.g. the tweeted date, number of favorites, retweets, and of course, the features created from the tweeted content itself. Then use a multi variate time series model to predict the weather.
+- Ask someone for more details.
+
+#### 11. How would you construct a feed to show relevant content for a site that involves user interactions with items?
+- We can do so using building a recommendation engine. The easiest we can do is to show contents that are popular other users, which is still a valid strategy if for example the contents are news articles. To be more accurate, we can build a content based filtering or collaborative filtering. If there’s enough user usage data, we can try collaborative filtering and recommend contents other similar users have consumed. If there isn’t, we can recommend similar items based on vectorization of items (content based filtering).
+
+#### 12. How would you design the people you may know feature on LinkedIn or Facebook?
+- Find strong unconnected people in weighted connection graph
+  - Define similarity as how strong the two people are connected
+  - Given a certain feature, we can calculate the similarity based on
+    - friend connections (neighbors)
+    - Check-in’s people being at the same location all the time.
+    - same college, workplace
+    - Have randomly dropped graphs test the performance of the algorithm
+- ref. News Feed Optimization
+  - Affinity score: how close the content creator and the users are
+  - Weight: weight for the edge type (comment, like, tag, etc.). Emphasis on features the company wants to promote
+  - Time decay: the older the less important
+
+#### 13. How would you predict who someone may want to send a Snapchat or Gmail to?
+- for each user, assign a score of how likely someone would send an email to
+- the rest is feature engineering:
+  - number of past emails, how many responses, the last time they exchanged an email, whether the last email ends with a question mark, features about the other users, etc.
+- Ask someone for more details.
+- People who someone sent emails the most in the past, conditioning on time decay.
+
+#### 14. How would you suggest to a franchise where to open a new store?
+- build a master dataset with local demographic information available for each location.
+  - local income levels, proximity to traffic, weather, population density, proximity to other businesses
+  - a reference dataset on local, regional, and national macroeconomic conditions (e.g. unemployment, inflation, prime interest rate, etc.)
+  - any data on the local franchise owner-operators, to the degree the manager
+- identify a set of KPIs acceptable to the management that had requested the analysis concerning the most desirable factors surrounding a franchise
+  - quarterly operating profit, ROI, EVA, pay-down rate, etc.
+- run econometric models to understand the relative significance of each variable
+- run machine learning algorithms to predict the performance of each location candidate
+
+#### 15. In a search engine, given partial data on what the user has typed, how would you predict the user’s eventual search query?
+- Based on the past frequencies of words shown up given a sequence of words, we can construct conditional probabilities of the set of next sequences of words that can show up (n-gram). The sequences with highest conditional probabilities can show up as top candidates.
+- To further improve this algorithm,
+  - we can put more weight on past sequences which showed up more recently and near your location to account for trends
+  - show your recent searches given partial data
+
+#### 16. Given a database of all previous alumni donations to your university, how would you predict which recent alumni are most likely to donate?
+- Based on frequency and amount of donations, graduation year, major, etc, construct a supervised regression (or binary classification) algorithm.
+
+#### 17. You’re Uber and you want to design a heatmap to recommend to drivers where to wait for a passenger. How would you approach this?
+- Based on the past pickup location of passengers around the same time of the day, day of the week (month, year), construct
+- Ask someone for more details.
+- Based on the number of past pickups
+  - account for periodicity (seasonal, monthly, weekly, daily, hourly)
+  - special events (concerts, festivals, etc.) from tweets
+
+#### 18. How would you build a model to predict a March Madness bracket?
+- One vector each for team A and B. Take the difference of the two vectors and use that as an input to predict the probability that team A would win by training the model. Train the models using past tournament data and make a prediction for the new tournament by running the trained model for each round of the tournament
+- Some extensions:
+  - Experiment with different ways of consolidating the 2 team vectors into one (e.g concantenating, averaging, etc)
+  - Consider using a RNN type model that looks at time series data.
+
+#### 19. You want to run a regression to predict the probability of a flight delay, but there are flights with delays of up to 12 hours that are really messing up your model. How can you address this?
+- This is equivalent to making the model more robust to outliers.
+- See Q3.
+
+## Probability (19 questions)
+
+
+#### 1. Bobo the amoeba has a 25%, 25%, and 50% chance of producing 0, 1, or 2 offspring, respectively. Each of Bobo’s descendants also have the same probabilities. What is the probability that Bobo’s lineage dies out?
+  - p=1/4+1/4*p+1/2*p^2 => p=1/2
+#### 2. In any 15-minute interval, there is a 20% probability that you will see at least one shooting star. What is the proba- bility that you see at least one shooting star in the period of an hour?
+  - 1-(0.8)^4. Or, we can use Poisson processes
+#### 3. How can you generate a random number between 1 - 7 with only a die?
+* Launch it 3 times: each throw sets the nth bit of the result. 
+* For each launch, if the value is 1-3, record a 0, else 1.
+The result is between 0 (000) and 7 (111), evenly spread (3 independent throw). Repeat the throws if 0 was obtained: the process stops on evenly spread values.
+#### 4. How can you get a fair coin toss if someone hands you a coin that is weighted to come up heads more often than tails?
+  - Flip twice and if HT then H, TH then T.
+#### 5. You have an 50-50 mixture of two normal distributions with the same standard deviation. How far apart do the means need to be in order for this distribution to be bimodal?
+  - more than two standard deviations
+#### 6. Given draws from a normal distribution with known parameters, how can you simulate draws from a uniform distribution?
+  - plug in the value to the CDF of the same random variable
+#### 7. A certain couple tells you that they have two children, at least one of which is a girl. What is the probability that they have two girls?
+  - 1/3
+#### 8. You have a group of couples that decide to have children until they have their first girl, after which they stop having children. What is the expected gender ratio of the children that are born? What is the expected number of children each couple will have?
+  - gender ratio is 1:1. Expected number of children is 2. let X be the number of children until getting a female (happens with prob 1/2). this follows a geometric distribution with probability 1/2
+#### 9. How many ways can you split 12 people into 3 teams of 4?
+  - the outcome follows a multinomial distribution with n=12 and k=3. but the classes are indistinguishable
+#### 10. Your hash function assigns each object to a number between 1:10, each with equal probability. With 10 objects, what is the probability of a hash collision? What is the expected number of hash collisions? What is the expected number of hashes that are unused.
+  - the probability of a hash collision: 1-(10!/10^10)
+  - the expected number of hash collisions: 1-10*(9/10)^10
+  - the expected number of hashes that are unused: 10*(9/10)^10
+#### 11. You call 2 UberX’s and 3 Lyfts. If the time that each takes to reach you is IID, what is the probability that all the Lyfts arrive first? What is the probability that all the UberX’s arrive first?
+  - All Lyft's first
+  
+    * probability that the first car is Lyft = 3/5
+    * probability that the second car is Lyft = 2/4
+    * probability that the third car is Lyft = 1/3
+    Therefore, probability that all the Lyfts arrive first = (3/5) * (2/4) * (1/3) = 1/10
+  - All Uber's first
+  
+    * probability that the first car is Uber = 2/5
+    * probability that the second car is Uber = 1/4
+    Therefore, probability that all the Ubers arrive first = (2/5) * (1/4) = 1/10
+#### 12. I write a program should print out all the numbers from 1 to 300, but prints out Fizz instead if the number is divisible by 3, Buzz instead if the number is divisible by 5, and FizzBuzz if the number is divisible by 3 and 5. What is the total number of numbers that is either Fizzed, Buzzed, or FizzBuzzed?
+  - 100+60-20=140
+#### 13. On a dating site, users can select 5 out of 24 adjectives to describe themselves. A match is declared between two users if they match on at least 4 adjectives. If Alice and Bob randomly pick adjectives, what is the probability that they form a match?
+  - 24C5*(1+5(24-5))/24C5*24C5 = 4/1771
+#### 14. A lazy high school senior types up application and envelopes to n different colleges, but puts the applications randomly into the envelopes. What is the expected number of applications that went to the right college?
+  - 1
+#### 15. Let’s say you have a very tall father. On average, what would you expect the height of his son to be? Taller, equal, or shorter? What if you had a very short father?
+  - Shorter. Regression to the mean
+#### 16. What’s the expected number of coin flips until you get two heads in a row? What’s the expected number of coin flips until you get two tails in a row?
+  - After the first two flips, you can see this problem as a Markov chain, with states HH, HT, TH, TT. 
+  - HH is the final state. You can than define the expected number of steps N before reaching HH: E(N) = 2 + 0.25nHH, 0.25nHT, 0.25nTH, 0.25nTT. nXX represents the expected number of steps before reaching HH starting from state XX.
+  - Solve linear equation:
+  * nHH = 0
+  * nHT = 1 + 0.5nTT + 0.5nTH
+  * nTH = 1 + 0.5nHH + 0.5nHT
+  * nTT = 1 + 0.5nTH + 0.5nTT
+  - Result gives E(N) = 6.
+#### 17. Let’s say we play a game where I keep flipping a coin until I get heads. If the first time I get heads is on the nth coin, then I pay you 2n-1 dollars. How much would you pay me to play this game?
+  - less than $3
+#### 18. You have two coins, one of which is fair and comes up heads with a probability 1/2, and the other which is biased and comes up heads with probability 3/4. You randomly pick coin and flip it twice, and get heads both times. What is the probability that you picked the fair coin?
+  - 4/13
+#### 19. You have a 0.1% chance of picking up a coin with both heads, and a 99.9% chance that you pick up a fair coin. You flip your coin and it comes up heads 10 times. What’s the chance that you picked up the fair coin, given the information that you observed?
+  * Events: F = "picked a fair coin", T = "10 heads in a row"
+  * (1) P(F|T) = P(T|F)P(F)/P(T) (Bayes formula)
+  * (2) P(T) = P(T|F)P(F) + P(T|¬F)P(¬F) (total probabilities formula)
+  * Injecting (2) in (1): P(F|T) = P(T|F)P(F)/(P(T|F)P(F) + P(T|¬F)P(¬F)) = 1 / (1 + P(T|¬F)P(¬F)/(P(T|F)P(F)))
+  * Numerically: 1/(1 + 0.001 * 2^10 /0.999).
+  * With 2^10 ≈ 1000 and 0.999 ≈ 1 this simplifies to 1/2
+#### 20. What is a P-Value ?
+  * The probability to obtain a similar or more extreme result than observed when the null hypothesis is assumed.
+  * ⇒ If the p-value is small, the null hypothesis is unlikely
+
+## Product Metrics (15 questions)
+
+#### 1. What would be good metrics of success for an advertising-driven consumer product? (Buzzfeed, YouTube, Google Search, etc.) A service-driven consumer product? (Uber, Flickr, Venmo, etc.)
+  * advertising-driven: Pageviews and daily actives, CTR, CPC (cost per click)
+    * click-ads  
+    * display-ads  
+  * service-driven: number of purchases, conversion rate
+#### 2. What would be good metrics of success for a productiv- ity tool? (Evernote, Asana, Google Docs, etc.) A MOOC? (edX, Coursera, Udacity, etc.)
+  * productivity tool: same as premium subscriptions
+  * MOOC: same as premium subscriptions, completion rate
+#### 3. What would be good metrics of success for an e-commerce product? (Etsy, Groupon, Birchbox, etc.) A subscrip- tion product? (Net ix, Birchbox, Hulu, etc.) Premium subscriptions? (OKCupid, LinkedIn, Spotify, etc.) 
+  * e-commerce: number of purchases, conversion rate, Hourly, daily, weekly, monthly, quarterly, and annual sales, Cost of goods sold, Inventory levels, Site traffic, Unique visitors versus returning visitors, Customer service phone call count, Average resolution time
+  * subscription
+    * churn, CoCA, ARPU, MRR, LTV
+  * premium subscriptions: 
+
+#### 4. What would be good metrics of success for a consumer product that relies heavily on engagement and interac- tion? (Snapchat, Pinterest, Facebook, etc.) A messaging product? (GroupMe, Hangouts, Snapchat, etc.)
+  * heavily on engagement and interaction: uses AU ratios, email summary by type, and push notification summary by type, resurrection ratio
+  * messaging product: 
+#### 5. What would be good metrics of success for a product that o ered in-app purchases? (Zynga, Angry Birds, other gaming apps)
+  * Average Revenue Per Paid User
+  * Average Revenue Per User
+#### 6. A certain metric is violating your expectations by going down or up more than you expect. How would you try to identify the cause of the change?
+  * breakdown the KPI’s into what consists them and find where the change is
+  * then further breakdown that basic KPI by channel, user cluster, etc. and relate them with any campaigns, changes in user behaviors in that segment
+#### 7. Growth for total number of tweets sent has been slow this month. What data would you look at to determine the cause of the problem?
+  * look at competitors' tweet growth
+  * look at your social media engagement on other platforms
+  * look at your sales data 
+#### 8. You’re a restaurant and are approached by Groupon to run a deal. What data would you ask from them in order to determine whether or not to do the deal?
+  * for similar restaurants (they should define similarity), average increase in revenue gain per coupon, average increase in customers per coupon, number of meals sold
+#### 9. You are tasked with improving the e ciency of a subway system. Where would you start?
+  * define efficiency
+#### 10. Say you are working on Facebook News Feed. What would be some metrics that you think are important? How would you make the news each person gets more relevant?
+  * rate for each action, duration users stay, CTR for sponsor feed posts
+  * ref. News Feed Optimization
+    * Affinity score: how close the content creator and the users are
+    * Weight: weight for the edge type (comment, like, tag, etc.). Emphasis on features the company wants to promote
+    * Time decay: the older the less important
+#### 11. How would you measure the impact that sponsored stories on Facebook News Feed have on user engagement? How would you determine the optimum balance between sponsored stories and organic content on a user’s News Feed?
+  * AB test on different balance ratio and see 
+#### 12. You are on the data science team at Uber and you are asked to start thinking about surge pricing. What would be the objectives of such a product and how would you start looking into this?
+  *  there is a gradual step-function type scaling mechanism until that imbalance of requests-to-drivers is alleviated and then vice versa as too many drivers come online enticed by the surge pricing structure. 
+  * I would bet the algorithm is custom tailored and calibrated to each location as price elasticities almost certainly vary across different cities depending on a huge multitude of variables: income, distance/sprawl, traffic patterns, car ownership, etc. With the massive troves of user data that Uber probably has collected, they most likely have tweaked the algos for each city to adjust for these varying sensitivities to surge pricing. Throw in some machine learning and incredibly rich data and you've got yourself an incredible, constantly-evolving algorithm.  
+
+#### 13. Say that you are Netflix. How would you determine what original series you should invest in and create?
+  * Netflix uses data to estimate the potential market size for an original series before giving it the go-ahead.
+#### 14. What kind of services would  nd churn (metric that tracks how many customers leave the service) helpful? How would you calculate churn?
+  * subscription based services
+#### 15. Let’s say that you’re are scheduling content for a content provider on television. How would you determine the best times to schedule content?
+
+
+## Statistical Inference (16 questions)
+
+#### 1. In an A/B test, how can you check if assignment to the various buckets was truly random?
+  - Plot the distributions of multiple features for both A and B and make sure that they have the same shape. More rigorously, we can conduct a permutation test to see if the distributions are the same.
+  - MANOVA to compare different means
+#### 2. What might be the benefits of running an A/A test, where you have two buckets who are exposed to the exact same product?
+  - Verify the sampling algorithm is random.
+#### 3. What would be the hazards of letting users sneak a peek at the other bucket in an A/B test?
+  - The user might not act the same suppose had they not seen the other bucket. You are essentially adding additional variables of whether the user peeked the other bucket, which are not random across groups.
+#### 4. What would be some issues if blogs decide to cover one of your experimental groups?
+  - Same as the previous question. The above problem can happen in larger scale.
+#### 5. How would you conduct an A/B test on an opt-in feature? 
+  - Ask someone for more details.
+#### 6. How would you run an A/B test for many variants, say 20 or more?
+  - one control, 20 treatment, if the sample size for each group is big enough.
+  - Ways to attempt to correct for this include changing your confidence level (e.g. Bonferroni Correction) or doing family-wide tests before you dive in to the individual metrics (e.g. Fisher's Protected LSD).
+#### 7. How would you run an A/B test if the observations are extremely right-skewed?
+  - lower the variability by modifying the KPI
+  - cap values
+  - percentile metrics
+  - log transform
+  - <https://www.quora.com/How-would-you-run-an-A-B-test-if-the-observations-are-extremely-right-skewed>
+#### 8. I have two different experiments that both change the sign-up button to my website. I want to test them at the same time. What kinds of things should I keep in mind?
+  - exclusive -> ok
+#### 9. What is a p-value? What is the difference between type-1 and type-2 error?
+  - A p-value is defined such that under the null hypothesis less than the fraction p of events have parameter values more extreme than the observed parameter. It is not the probability that the null hypothesis is wrong. 
+  - type-1 error: rejecting Ho when Ho is true
+  - type-2 error: not rejecting Ho when Ha is true
+#### 10. You are AirBnB and you want to test the hypothesis that a greater number of photographs increases the chances that a buyer selects the listing. How would you test this hypothesis?
+  - For randomly selected listings with more than 1 pictures, hide 1 random picture for group A, and show all for group B. Compare the booking rate for the two groups.
+  - Ask someone for more details.
+#### 11. How would you design an experiment to determine the impact of latency on user engagement?
+  - The best way I know to quantify the impact of performance is to isolate just that factor using a slowdown experiment, i.e., add a delay in an A/B test.
+#### 12. What is maximum likelihood estimation? Could there be any case where it doesn’t exist?
+  - A method for parameter optimization (fitting a model). We choose parameters so as to maximize the likelihood function (how likely the outcome would happen given the current data and our model).
+  - maximum likelihood estimation (MLE) is a method of [estimating](https://en.wikipedia.org/wiki/Estimator "Estimator") the [parameters](https://en.wikipedia.org/wiki/Statistical_parameter "Statistical parameter") of a [statistical model](https://en.wikipedia.org/wiki/Statistical_model "Statistical model") given observations, by finding the parameter values that maximize the [likelihood](https://en.wikipedia.org/wiki/Likelihood "Likelihood") of making the observations given the parameters. MLE can be seen as a special case of the [maximum a posteriori estimation](https://en.wikipedia.org/wiki/Maximum_a_posteriori_estimation "Maximum a posteriori estimation") (MAP) that assumes a [uniform](https://en.wikipedia.org/wiki/Uniform_distribution_\(continuous\) "Uniform distribution \(continuous\)") [prior distribution](https://en.wikipedia.org/wiki/Prior_probability "Prior probability") of the parameters, or as a variant of the MAP that ignores the prior and which therefore is [unregularized](https://en.wikipedia.org/wiki/Regularization_\(mathematics\) "Regularization \(mathematics\)").
+  - for gaussian mixtures, non parametric models, it doesn’t exist
+#### 13. What’s the difference between a MAP, MOM, MLE estima\- tor? In which cases would you want to use each?
+  - MAP estimates the posterior distribution given the prior distribution and data which maximizes the likelihood function. MLE is a special case of MAP where the prior is uninformative uniform distribution.
+  - MOM sets moment values and solves for the parameters. MOM is not used much anymore because maximum likelihood estimators have higher probability of being close to the quantities to be estimated and are more often unbiased.
+#### 14. What is a confidence interval and how do you interpret it?
+  - For example, 95% confidence interval is an interval that when constructed for a set of samples each sampled in the same way, the constructed intervals include the true mean 95% of the time.
+  - if confidence intervals are constructed using a given confidence level in an infinite number of independent experiments, the proportion of those intervals that contain the true value of the parameter will match the confidence level.
+  - [confidence intervals refresher from khanacademy](https://www.khanacademy.org/math/ap-statistics/estimating-confidence-ap/introduction-confidence-intervals/v/confidence-intervals-and-margin-of-error)
+#### 15. What is unbiasedness as a property of an estimator? Is this always a desirable property when performing inference? What about in data analysis or predictive modeling?
+  - Unbiasedness means that the expectation of the estimator is equal to the population value we are estimating. This is desirable in inference because the goal is to explain the dataset as accurately as possible. However, this is not always desirable for data analysis or predictive modeling as there is the bias variance tradeoff. We sometimes want to prioritize the generalizability and avoid overfitting by reducing variance and thus increasing bias.
+#### 16. What is Selection Bias?
+  - Selection bias is a kind of error that occurs when the researcher decides who is going to be studied. It is usually associated with research where the selection of participants isn’t random. It is sometimes referred to as the selection effect. It is the distortion of statistical analysis, resulting from the method of collecting samples. If the selection bias is not taken into account, then some conclusions of the study may not be accurate.
+  - The types of selection bias include:
+  - Sampling bias:  It is a systematic error due to a non-random sample of a population causing some members of the population to be less likely to be included than others resulting in a biased sample.
+  - Time Interval bias: A trial may be terminated early at an extreme value (often for ethical reasons), but the extreme value is likely to be reached by the variable with the largest variance, even if all variables have a similar mean.
+  - Data: When specific subsets of data are chosen to support a conclusion or rejection of bad data on arbitrary grounds, instead of according to previously stated or generally agreed criteria.
+  - Attrition: Attrition bias is a kind of selection bias caused by attrition (loss of participants) discounting trial subjects/tests that did not run to completion.
+
+
+     
+
+Interviewers seek practical knowledge on the data science basics and its industry-applications along with a good knowledge of tools and processes. Here we will provide you with a list of important data science interview questions for freshers as well as experienced candidates that one could face during job interviews. If you are aspiring to be a data scientist then you can start from here.
+Data Science Interview Questions for Freshers
+1. What is the difference between Type I Error & Type II Error? Also, Explain the Power of the test?
+
+When we perform hypothesis testing we consider two types of Error, Type I error and Type II error, sometimes we reject the null hypothesis when we should not or choose not to reject the null hypothesis when we should. 
+
+A Type I Error is committed when we reject the null hypothesis when the null hypothesis is actually true. On the other hand, a Type II error is made when we do not reject the null hypothesis and the null hypothesis is actually false. 
+
+The probability of a Type I error is denoted by α and the probability of Type II error is denoted by β.
+
+For a given sample n, a decrease in α will increase β and vice versa. Both α  and β decrease as n increases. 
+
+The table given below explains the situation around the Type I error and Type II error:
+Decision	Null Hypothesis is true	Null hypothesis is false
+Reject the Null Hypothesis	Type I error	Correct Decision
+Fail to reject Null Hypothesis	Correct Decision	Type II error
+
+Two correct decisions are possible: not rejecting the null hypothesis when the null hypothesis is true and rejecting the null hypothesis when the null hypothesis is false. 
+
+Conversely, two incorrect decisions are also possible: Rejecting the null hypothesis when the null hypothesis is true(Type I error), and not rejecting the null hypothesis when the null hypothesis is false (Type II error).
+
+Type I error is false positive while Type II error is a false negative.
+
+Power of Test: The Power of the test is defined as the probability of rejecting the null hypothesis when the null hypothesis is false. Since β is the probability of a Type II error, the power of the test is defined as 1- β.  In advanced statistics, we compare various types of tests based on their size and power, where the size denotes the actual proportion of rejections when the null is true and the power denotes the actual proportion of rejections when the null is false. 
+2. What do you understand by Over-fitting and Under-fitting?
+
+Overfitting is observed when there is a small amount of data and a large number of variables, If the model we finish with ends up modelling the noise as well, we call it “overfitting” and if we are not modelling all the information, we call it “underfitting”. Most commonly underfitting is observed when a linear model is fitted to a non-linear data. 
+
+The hope is that the model that does the best on testing data manages to capture/model all the information but leave out all the noise. Overfitting can be avoided by using cross-validation techniques (like K Folds) and regularisation techniques (like Lasso regression). 
+3. When do you use the Classification Technique over the Regression Technique?
+
+Classification problems are mainly used when the output is the categorical variable (Discrete) whereas Regression Techniques are used when the output variable is Continuous variable.
+
+In the Regression algorithm, we attempt to estimate the mapping function (f) from input variables (x) to numerical (continuous) output variable (y).
+
+For example, Linear regression, Support Vector Machine (SVM) and Regression trees.
+
+In the Classification algorithm, we attempt to estimate the mapping function (f) from the input variable (x) to the discrete or categorical output variable (y). 
+
+For example, Logistic Regression, naïve Bayes, Decision Trees & K nearest neighbours.
+
+Both Classifications, as well as Regression techniques, are Supervised Machine Learning Algorithms.
+4. What is the importance of Data Cleansing?
+
+Ans. As the name suggests, data cleansing is a process of removing or updating the information that is incorrect, incomplete, duplicated, irrelevant, or formatted improperly. It is very important to improve the quality of data and hence the accuracy and productivity of the processes and organisation as a whole.
+
+Real-world data is often captured in formats which have hygiene issues. There are sometimes errors due to various reasons which make the data inconsistent and sometimes only some features of the data. Hence data cleansing is done to filter the usable data from the raw data, otherwise many systems consuming the data will produce erroneous results.
+5. Which are the important steps of Data Cleaning?
+
+Different types of data require different types of cleaning, the most important steps of Data Cleaning are:
+
+    Data Quality
+    Removing Duplicate Data (also irrelevant data)
+    Structural errors
+    Outliers
+    Treatment for Missing Data
+
+Data Cleaning is an important step before analysing data, it helps to increase the accuracy of the model. This helps organisations to make an informed decision.
+
+Data Scientists usually spends 80% of their time cleaning data.
+6. How is k-NN different from k-means clustering?
+
+Ans. K-nearest neighbours is a classification algorithm, which is a subset of supervised learning. K-means is a clustering algorithm, which is a subset of unsupervised learning.
+
+And K-NN is a Classification or Regression Machine Learning Algorithm while K-means is a Clustering Machine Learning Algorithm. 
+
+K-NN is the number of nearest neighbours used to classify or (predict in case of continuous variable/regression) a test sample, whereas K-means is the number of clusters the algorithm is trying to learn from the data.   
+7. What is p-value?
+
+Ans. p-value helps you determine the strengths of your results when you perform a hypothesis test. It is a number between 0 and 1. The claim which is on trial is called the Null Hypothesis. Lower p-values, i.e. ≤ 0.05, means we can reject the Null Hypothesis. A high p-value, i.e. ≥ 0.05, means we can accept the Null Hypothesis. An exact p-value 0.05 indicates that the Hypothesis can go either way.
+
+P-value is the measure of the probability of events other than suggested by the null hypothesis. It effectively means the probability of events rarer than the event being suggested by the null hypothesis.
+8. How is Data Science different from Big Data and Data Analytics?
+
+Ans. Data Science utilises algorithms and tools to draw meaningful and commercially useful insights from raw data. It involves tasks like data modelling, data cleansing, analysis, pre-processing etc. 
+Big Data is the enormous set of structured, semi-structured, and unstructured data in its raw form generated through various channels.
+And finally, Data Analytics provides operational insights into complex business scenarios. It also helps in predicting upcoming opportunities and threats for an organisation to exploit.
+
+Essentially, big data is the process of handling large volumes of data. It includes standard practices for data management and processing at a high speed maintaining the consistency of data. Data analytics is associated with gaining meaningful insights from the data through mathematical or non-mathematical processes. Data Science is the art of making intelligent systems so that they learn from data and then make decisions according to past experiences.
+data science interview questions
+How is Data Science different from Big Data and Data Analytics?
+Statistics in Data Science Interview Questions
+9. What is the use of Statistics in Data Science?
+
+Ans. Statistics in Data Science provides tools and methods to identify patterns and structures in data to provide a deeper insight into it. Serves a great role in data acquisition, exploration, analysis, and validation. It plays a really powerful role in Data Science.
+
+Data Science is a derived field which is formed from the overlap of statistics probability and computer science. Whenever one needs to do estimations, statistics is involved. Many algorithms in data science are built on top of statistical formulae and processes. Hence statistics is an important part of data science.
+
+Also Read: Practical Ways to Implement Data Science in Marketing
+10. What is the difference between Supervised Learning and Unsupervised Learning?
+
+Ans. Supervised Machine Learning requires labelled data for training while Unsupervised Machine Learning does not require labelled data. It can be trained on unlabelled data.
+
+To elaborate, supervised learning involves training of the model with a target value whereas unsupervised has no known results to learn and it has a state-based or adaptive mechanism to learn by itself. Supervised learning involves high computation costs whereas unsupervised learning has low training cost. Supervised learning finds applications in classification and regression tasks whereas unsupervised learning finds applications in clustering and association rule mining.
+11. What is a Linear Regression?
+
+Ans. The linear regression equation is a one-degree equation with the most basic form being Y = mX + C where m is the slope of the line and C is the standard error. It is used when the response variable is continuous in nature for example height, weight, and the number of hours. It can be a simple linear regression if it involves continuous dependent variable with one independent variable and a multiple linear regression if it has multiple independent variables. 
+
+Linear regression is a standard statistical practice to calculate the best fit line passing through the data points when plotted. The best fit line is chosen in such a way so that the distance of each data point is minimum from the line which reduces the overall error of the system. Linear regression assumes that the various features in the data are linearly related to the target. It is often used in predictive analytics for calculating estimates in the foreseeable future.
+12. What is Logistic Regression?
+
+Ans. Logistic regression is a technique in predictive analytics which is used when we are doing predictions on a variable which is dichotomous(binary) in nature. For example, yes/no or true/false etc. The equation for this method is of the form Y = eX + e – X . It is used for classification based tasks. It finds out probabilities for a data point to belong to a particular class for classification.
+13. Explain Normal Distribution
+
+Ans. Normal Distribution is also called the Gaussian Distribution. It is a type of probability distribution such that most of the values lie near the mean. It has the following characteristics:
+
+    The mean, median, and mode of the distribution coincide
+    The distribution has a bell-shaped curve
+    The total area under the curve is 1
+    Exactly half of the values are to the right of the centre, and the other half to the left of the centre
+
+14. Mention some drawbacks of the Linear Model
+
+Ans. Here a few drawbacks of the linear model:
+
+    The assumption regarding the linearity of the errors
+    It is not usable for binary outcomes or count outcome
+    It can’t solve certain overfitting problems
+    It also assumes that there is no multicollinearity in the data. 
+
+15. Which one would you choose for text analysis, R or Python?
+
+Ans. Python would be a better choice for text analysis as it has the Pandas library to facilitate easy to use data structures and high-performance data analysis tools. However, depending on the complexity of data one could use either which suits best.
+16. What steps do you follow while making a decision tree?
+
+Ans. The steps involved in making a decision tree are:
+
+    Determine the Root of the Tree Step
+    Calculate Entropy for The Classes Step
+    Calculate Entropy After Split for Each Attribute
+    Calculate Information Gain for each split
+    Perform the Split
+    Perform Further Splits Step
+    Complete the Decision Tree 
+
+data science interview questions Steps involved in making a Decision Tree
+17. What is correlation and covariance in statistics?
+
+Ans. Correlation is defined as the measure of the relationship between two variables. If two variables are directly proportional to each other, then its positive correlation. If the variables are indirectly proportional to each other, it is known as a negative correlation. Covariance is the measure of how much two random variables vary together.
+18. What is ‘Naive’ in a Naive Bayes?
+
+Ans. A naive Bayes classifier assumes that the presence (or absence) of a particular feature of a class is unrelated to the presence (or absence) of any other feature, given the class variable. Basically, it’s “naive” because it makes assumptions that may or may not turn out to be correct.
+19. How can you select k for k-means?
+
+Ans. The two methods to calculate the optimal value of k in k-means are:
+
+    Elbow method
+    Silhouette score method
+
+Silhouette score is the most prevalent while determining the optimal value of k.
+20. What Native Data Structures Can You Name in Python? Of These, Which Are Mutable, and Which Are Immutable?
+
+Ans. The native data structures of python are:
+
+    Lists
+    Tuples
+    Sets
+    Dictionary
+
+Tuples are immutable. Others are mutable.
+21. What libraries do data scientists use to plot data in Python?
+
+Ans. The libraries used for data plotting are:
+
+    matplotlib
+    seaborn
+    ggplot. 
+
+Apart from these, there are many opensource tools, but the aforementioned are the most used in common practice.
+22. How is Memory Managed in Python?
+
+Ans. Memory management in Python involves a private heap containing all Python objects and data structures. The management of this private heap is ensured internally by the Python memory manager.
+23. What is a recall?
+
+Ans. Recall gives the rate of true positives with respect to the sum of true positives and false negatives. It is also known as true positive rate.
+24. What are lambda functions?
+
+Ans. A lambda function is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression.
+25. What is reinforcement learning?
+
+Ans. Reinforcement learning is an unsupervised learning technique in machine learning. It is a state-based learning technique. The models have predefined rules for state change which enable the system to move from one state to another, while the training phase.
+26. What is Entropy and Information Gain in decision tree algorithm?
+
+Ans. Entropy is used to check the homogeneity of a sample. If the value of entropy is ‘0’ then the sample is completely homogenous. On the other hand, if entropy has a value ‘1’, the sample is equally divided. Entropy controls how a Decision Tree decides to split the data. It actually affects how a Decision Tree draws its boundaries.
+
+The information gain depends on the decrease in entropy after the dataset is split on an attribute. Constructing a decision tree is always about finding the attributes that return highest information gain.
+27. What is Cross-Validation? 
+
+Ans. It is a model validation technique to asses how the outcomes of a statistical analysis will infer to an independent data set. It is majorly used where prediction is the goal and one needs to estimate the performance accuracy of a predictive model in practice.
+The goal here is to define a data-set for testing a model in its training phase and limit overfitting and underfitting issues. The validation and the training set is to be drawn from the same distribution to avoid making things worse.
+
+Also Read: Why Data Science Jobs Are in Demand
+28. What is Bias-Variance tradeoff?
+
+Ans. The error introduced in your model because of over-simplification of the algorithm is known as Bias. On the other hand, Variance is the error introduced to your model because of the complex nature of machine learning algorithm. In this case, the model also learns noise and perform poorly on the test dataset.
+
+The bias-variance tradeoff is the optimum balance between bias and variance in a machine learning model. If you try to decrease bias, the variance will increase and vice-versa.
+
+Total Error= Square of bias+variance+irreducible error. Bias variance tradeoff is the process of finding the exact number of features while model creation such that the error is kept minimum, but also taking effective care such that the model does not overfit or underfit.
+29. Mention the types of biases that occur during sampling?
+
+Ans. The three types of biases that occur during sampling are:
+a. Self-Selection Bias
+b. Under coverage bias
+c. Survivorship Bias
+
+Self selection is when the participants of the analysis select themselves. Undercoverage occurs when very few samples are selected from a segment of the population. Survivorship bias occurs when the observations recorded at the end of the investigation are a non-random set of those present at the beginning of the investigation.
+30. What is the Confusion Matrix?
+
+Ans. A confusion matrix is a 2X2 table that consists of four outputs provided by the binary classifier.
+
+A binary classifier predicts all data instances of a test dataset as either positive or negative. This produces four outcomes-
+
+    True positive(TP) — Correct positive prediction
+    False-positive(FP) — Incorrect positive prediction
+    True negative(TN) — Correct negative prediction
+    False-negative(FN) — Incorrect negative prediction
+
+It helps in calculating various measures including error rate (FP+FN)/(P+N), specificity(TN/N), accuracy(TP+TN)/(P+N), sensitivity (TP/P), and precision( TP/(TP+FP) ).
+
+A confusion matrix is essentially used to evaluate the performance of a machine learning model when the truth values of the experiments are already known and the target class has more than two categories of data. It helps in visualisation and evaluation of the results of the statistical process.
+31. Explain selection bias
+
+Ans. Selection bias occurs when the research does not have a random selection of participants. It is a distortion of statistical analysis resulting from the method of collecting the sample. Selection bias is also referred to as the selection effect. When professionals fail to take selection bias into account, their conclusions might be inaccurate.
+
+Some of the different types of selection biases are:
+
+    Sampling Bias – A systematic error that results due to a non-random sample
+    Data – Occurs when specific data subsets are selected to support a conclusion or reject bad data
+    Attrition – Refers to the bias caused due to tests that didn’t run to completion.
+
+32. What are exploding gradients?
+
+Ans. Exploding Gradients is the problematic scenario where large error gradients accumulate to result in very large updates to the weights of neural network models in the training stage. In an extreme case, the value of weights can overflow and result in NaN values. Hence the model becomes unstable and is unable to learn from the training data.
+33. Explain the Law of Large Numbers
+
+Ans. The ‘Law of Large Numbers’ states that if an experiment is repeated independently a large number of times, the average of the individual results is close to the expected value. It also states that the sample variance and standard deviation also converge towards the expected value.
+34. What is the importance of A/B testing
+
+Ans. The goal of A/B testing is to pick the best variant among two hypotheses, the use cases of this kind of testing could be a web page or application responsiveness, landing page redesign, banner testing, marketing campaign performance etc. 
+The first step is to confirm a conversion goal, and then statistical analysis is used to understand which alternative performs better for the given conversion goal.
+35. Explain Eigenvectors and Eigenvalues
+
+Ans. Eigenvectors depict the direction in which a linear transformation moves and acts by compressing, flipping, or stretching. They are used to understand linear transformations and are generally calculated for a correlation or covariance matrix. 
+The eigenvalue is the strength of the transformation in the direction of the eigenvector. 
+
+An eigenvector’s direction remains unchanged when a linear transformation is applied to it.
+Upskill with Great Learning’s DSBA Program today!
+36. Why Is Re-sampling Done?
+
+Ans. Resampling is done to:
+
+    Estimate the accuracy of sample statistics with the subsets of accessible data at hand
+    Substitute data point labels while performing significance tests
+    Validate models by using random subsets 
+
+37. What is systematic sampling and cluster sampling
+
+Ans. Systematic sampling is a type of probability sampling method. The sample members are selected from a larger population with a random starting point but a fixed periodic interval. This interval is known as the sampling interval. The sampling interval is calculated by dividing the population size by the desired sample size.
+
+Cluster sampling involves dividing the sample population into separate groups, called clusters. Then, a simple random sample of clusters is selected from the population. Analysis is conducted on data from the sampled clusters.
+38.What are Autoencoders?
+
+Ans. An autoencoder is a kind of artificial neural network. It is used to learn efficient data codings in an unsupervised manner. It is utilised for learning a representation (encoding) for a set of data, mostly for dimensionality reduction, by training the network to ignore signal “noise”. Autoencoder also tries to generate a representation as close as possible to its original input from the reduced encoding.
+39. What are the steps to build a Random Forest Model?
+
+A Random Forest is essentially a build up of a number of decision trees. The steps to build a random forest model include:
+
+Step1: Select ‘k’ features from a total of ‘m’ features, randomly. Here k << m
+
+Step2: Calculate node D using the best split point — along the ‘k’ features 
+
+Step 3: Split the node into daughter nodes using best splitStep 4: Repeat Steps 2 and 3 until the leaf nodes are finalised
+
+Step5: Build a Random forest by repeating steps 1-4 for ‘n’ times to create ‘n’ number of trees. 
+40. How do you avoid the overfitting of your model?
+
+Overfitting basically refers to a model that is set only for a small amount of data. It tends to ignore the bigger picture. Three important methods to avoid overfitting are:
+
+    Keeping the model simple—using fewer variables and removing major amount of the noise in the training data
+    Using cross-validation techniques. E.g.: k folds cross-validation 
+    Using regularisation techniques — like LASSO, to penalise model parameters that are more likely to cause overfitting.
+
+41. Differentiate between univariate, bivariate, and multivariate analysis.
+
+Univariate data, as the name suggests, contains only one variable. The univariate analysis describes the data and finds patterns that exist within it. 
+
+Bivariate data contains two different variables. The bivariate analysis deals with causes, relationships and analysis between those two variables.
+
+Multivariate data contains three or more variables. Multivariate analysis is similar to that of a bivariate, however, in a multivariate analysis, there exists more than one dependent variable.
+42. How is random forest different from decision trees?
+
+Ans. A Decision Tree is a single structure. Random forest is a collection of decision trees.
+43. What is dimensionality reduction? What are its benefits?
+
+Dimensionality reduction is defined as the process of converting a data set with vast dimensions into data with lesser dimensions — in order to convey similar information concisely. 
+
+This method is mainly beneficial in compressing data and reducing storage space. It is also useful in reducing computation time due to fewer dimensions. Finally,  it helps remove redundant features — for instance, storing a value in two different units (meters and inches) is avoided.
+
+In short, dimensionality reduction is the process of reducing the number of random variables under consideration, by obtaining a set of principal variables. It can be divided into feature selection and feature extraction.
+44. For the given points, how will you calculate the Euclidean distance in Python? plot1 = [1,3 ]  ; plot2 = [2,5] 
+
+Ans.
+
+import math
+# Example points in 2-dimensional space...
+x = (1,3)
+y = (2,5)
+distance = math.sqrt(sum([(a - b) ** 2 for a, b in zip(x, y)]))
+print("Euclidean distance from x to y: ",distance)
+
+45. Mention feature selection methods used to select the right variables.
+
+The methods for feature selection can be broadly classified into two types:
+
+Filter Methods: These methods involve:
+
+    Linear discrimination analysis
+    ANOVA
+    Chi-Square
+
+Wrapper Methods: These methods involve
+
+    Forward Selection: One feature at a time is tested and a good fit is obtained
+    Backward Selection: All features are reviewed to see what works better
+    Recursive Feature Elimination: Every different feature is looked at recursively and paired together accordingly. 
+
+Others are Forward Elimination, Backward Elimination for Regression, Cosine Similarity-Based Feature Selection for Clustering tasks, Correlation-based eliminations etc.
+Machine Learning in Data Science Interview Questions
+46. What are the different types of clustering algorithms?
+
+Ans. Kmeans Clustering, KNN (K nearest neighbour), Hierarchial clustering, Fuzzy Clustering are some of the common examples of clustering algorithms.
+47. How should you maintain a deployed model?
+
+Ans. A deployed model needs to be retrained after a while so as to improve the performance of the model. Since deployment, a track should be kept of the predictions made by the model and the truth values. Later this can be used to retrain the model with the new data. Also, root cause analysis for wrong predictions should be done.
+48. Which of the following machine learning algorithms can be used for inputting missing values of both categorical and continuous variables? K-means clustering Linear regression K-NN (k-nearest neighbour) Decision trees
+
+Ans. KNN and Kmeans
+49. What is a ROC Curve? Explain how a ROC Curve works?
+
+Ans. AUC – ROC curve is a performance measurement for the classification problem at various thresholds settings. ROC is a probability curve and AUC represents the degree or measure of separability. It tells how much model is capable of distinguishing between classes. Higher the AUC, better the model is at predicting 0s as 0s and 1s as 1s.
+50. How do you find RMSE and MSE in a linear regression model?
+
+Ans. Mean square error is the squared sum of (actual value-predicted value) for all data points. It gives an estimate of the total square sum of errors. Root mean square is the square root of the squared sum of errors.
+51. Can you cite some examples where a false negative holds more importance than a false positive?
+
+Ans. In cases of predictions when we are doing disease prediction based on symptoms for diseases like cancer.
+52. How can outlier values be treated?
+
+Ans. Outlier treatment can be done by replacing the values with mean, mode, or a cap off value. The other method is to remove all rows with outliers if they make up a small proportion of the data. A data transformation can also be done on the outliers.
+53. How can you calculate accuracy using a confusion matrix?
+
+Ans. Accuracy score can be calculated by the formula: (TP+TN)/(TP+TN+FP+FN), where TP= True Positive, TN=True Negatives, FP=False positive, and FN=False Negative.
+54. What is the difference between “long” and “wide” format data?
+
+Ans. Wide-format is where we have a single row for every data point with multiple columns to hold the values of various attributes. The long format is where for each data point we have as many rows as the number of attributes and each row contains the value of a particular attribute for a given data point.
+55. Explain the SVM machine learning algorithm in detail.
+
+Ans. SVM is an ML algorithm which is used for classification and regression. For classification, it finds out a muti dimensional hyperplane to distinguish between classes. SVM uses kernels which are namely linear, polynomial, and rbf. There are few parameters which need to be passed to SVM in order to specify the points to consider while the calculation of the hyperplane.
+56. What are the various steps involved in an analytics project?
+
+Ans. The steps involved in a text analytics project are:
+
+    Data collection
+    Data cleansing
+    Data pre-processing
+    Creation of train test and validation sets
+    Model creation
+    Hyperparameter tuning
+    Model deployment 
+
+57. Explain Star Schema.
+
+Ans. Star schema is a data warehousing concept in which all schema is connected to a central schema.
+58. How Regularly Must an Algorithm be Updated?
+
+Ans. It completely depends on the accuracy and precision being required at the point of delivery and also on how much new data we have to train on. For a model trained on 10 million rows its important to have new data with the same volume or close to the same volume. Training on 1 million new data points every alternate week, or fortnight won’t add much value in terms of increasing the efficiency of the model.
+59. What is Collaborative Filtering?
+
+Ans. Collaborative filtering is a technique that can filter out items that a user might like on the basis of reactions by similar users. It works by searching a large group of people and finding a smaller set of users with tastes similar to a particular user.
+60. How will you define the number of clusters in a clustering algorithm?
+
+Ans. By determining the Silhouette score and elbow method, we determine the number of clusters in the algorithm.
+61. What is Ensemble Learning? Define types.
+
+Ans. Ensemble learning is clubbing of multiple weak learners (ml classifiers) and then using aggregation for result prediction. It is observed that even if the classifiers perform poorly individually, they do better when their results are aggregated. An example of ensemble learning is random forest classifier.
+62. What are the support vectors in SVM?
+
+Ans. Support vectors are data points that are closer to the hyperplane and influence the position and orientation of the hyperplane. Using these support vectors, we maximise the margin of the classifier. Deleting the support vectors will change the position of the hyperplane. These are the points that help us build our SVM.
+63. What is pruning in Decision Tree?
+
+Ans. Pruning is the process of reducing the size of a decision tree. The reason for pruning is that the trees prepared by the base algorithm can be prone to overfitting as they become incredibly large and complex.
+64. What are the various classification algorithms?
+
+Ans. Different types of classification algorithms include logistic regression, SVM, Naive Bayes, decision trees, and random forest.
+65. What are Recommender Systems?
+
+Ans. A recommendation engine is a system, which on the basis of data analysis of the history of users and behaviour of similar users, suggests products, services, information to users. A recommendation can take user-user relationship, product-product relationships, product-user relationship etc. for recommendations.
+Data Analysis Interview Questions
+66. List out the libraries in Python used for Data Analysis and Scientific Computations.
+
+Ans. The libraries NumPy, Scipy, Pandas, sklearn, Matplotlib which are most prevalent. For deep learning Pytorch, Tensorflow is great tools to learn.
+67. State the difference between the expected value and the mean value.
+
+Ans. Mathematical expectation, also known as the expected value, is the summation or integration of possible values from a random variable. Mean value is the average of all data points.
+68. How are NumPy and SciPy related?
+
+Ans. NumPy and SciPy are python libraries with support for arrays and mathematical functions. They are very handy tools for data science.
+69. What will be the output of the below Python code?
+
+def multipliers ():
+return [lambda x: i * x for i in range (4)]
+print [m (2) for m in multipliers ()]
+
+Ans. Error
+70. What do you mean by list comprehension?
+
+Ans. List comprehension is an elegant way to define and create a list in Python. These lists often have the qualities of sets but are not in all cases sets. List comprehension is a complete substitute for the lambda function as well as the functions map(), filter(), and reduce().
+71. What is __init__ in Python?
+
+Ans. “__init__” is a reserved method in python classes. It is known as a constructor in object-oriented concepts. This method is called when an object is created from the class and it allows the class to initialise the attributes of the class.
+72. What is the difference between append() and extend() methods?
+
+Ans. append() is used to add items to list. extend() uses an iterator to iterate over its argument and adds each element in the argument to the list and extends it.
+73. What is the output of the following? x = [ ‘ab’, ‘cd’ ] print(len(list(map(list, x))))
+
+Ans. 2
+74. Write a Python program to count the total number of lines in a text file.
+
+Ans.
+
+count=0
+with open ('filename.txt','rb') as f:
+    for line in f:
+        count+=1
+
+print count
+
+75. How will you read a random line in a file?
+
+Ans.
+
+import random 
+def random_line(fname): lines = open(fname).read().splitlines() 
+    return random.choice(lines) print(random_line('test.txt'))
+
+76. How would you effectively represent data with 5 dimensions?
+
+Ans. It can be represented in a NumPy array of dimensions (n*n*n*n*5)
+77. Whenever you exit Python, is all memory de-allocated?
+
+Ans. Objects having circular references are not always free when python exits. Hence when we exit python all memory doesn’t necessarily get deallocated.
+78. How would you create an empty NumPy array?
+
+Ans.
+
+"import numpy as np
+np.empty([2, 2])"
+
+79. Treating a categorical variable as a continuous variable would result in a better predictive model?
+
+Ans. There is no substantial evidence for that, but in some cases, it might help. It’s totally a brute force approach. Also, it only works when the variables in question are ordinal in nature.
+80. How and by what methods data visualisations can be effectively used?
+
+Ans. Data visualisation is greatly helpful while creation of reports. There are quite a few reporting tools available such as tableau, Qlikview etc. which make use of plots, graphs etc for representing the overall idea and results for analysis. Data visualisations are also used in exploratory data analysis so that it gives us an overview of the data.
+81. You are given a data set consisting of variables with more than 30 per cent missing values. How will you deal with them?
+
+Ans. If 30 per cent data is missing from a single column then, in general, we remove the column. If the column is too important to be removed we may impute values. For imputation, several methods can be used and for each method of imputation, we need to evaluate the model. We should stick with one that model which gives us the best results and generalises well to unseen data.
+82. What is skewed Distribution & uniform distribution?
+
+Ans. The skewed distribution is a distribution in which the majority of the data points lie to the right or left of the centre. A uniform distribution is a probability distribution in which all outcomes are equally likely.
+83. What can be used to see the count of different categories in a column in pandas?
+
+Ans. value_counts will show the count of different categories.
+84. What is the default missing value marker in pandas, and how can you detect all missing values in a DataFrame?
+
+Ans. NaN is the missing values marker in pandas. All rows with missing values can be detected by is_null() function in pandas.
+85. What is root cause analysis?
+
+Ans. Root cause analysis is the process of tracing back of occurrence of an event and the factors which lead to it. It’s generally done when a software malfunctions. In data science, root cause analysis helps businesses understand the semantics behind certain outcomes.
+86. What is a Box-Cox Transformation?
+
+Ans. A Box Cox transformation is a way to normalise variables. Normality is an important assumption for many statistical techniques; if your data isn’t normal, applying a Box-Cox means that you are able to run a broader number of tests.
+87. What if instead of finding the best split, we randomly select a few splits and just select the best from them. Will it work?
+
+Ans. The decision tree is based on a greedy approach. It selects the best option for each branching. If we randomly select the best split from average splits, it would give us a locally best solution and not the best solution producing sub-par and sub-optimal results.
+88. What is the result of the below lines of code?
+
+def fast (items= []):
+items.append (1)
+return items
+
+print fast ()
+print fast ()
+
+Ans. [1]
+89. How would you produce a list with unique elements from a list with duplicate elements?
+
+Ans.
+
+l=[1,1,2,2]
+l=list(set(l))
+l
+
+90. How will you create a series from dict in Pandas?
+
+Ans.
+
+import pandas as pd 
+  
+# create a dictionary 
+dictionary = {'cat' : 10, 'Dog' : 20} 
+  
+# create a series 
+series = pd.Series(dictionary) 
+  
+print(series) 
+
+91. How will you create an empty DataFrame in Pandas?
+
+Ans.
+
+column_names = ["a", "b", "c"]
+
+df = pd.DataFrame(columns = column_names)
+
+92. How to get the items of series A not present in series B?
+
+Ans. We can do so by using series.isin() in pandas.
+93. How to get frequency counts of unique items of a series?
+
+Ans. pandas.Series.value_counts gives the frequency of items in a series.
+94. How to convert a numpy array to a dataframe of given shape?
+
+Ans. If matrix is the numpy array in question: df = pd.DataFrame(matrix) will convert matrix into a dataframe.
+95. What is Data Aggregation?
+
+Ans. Data aggregation is a process in which aggregate functions are used to get the necessary outcomes after a groupby. Common aggregation functions are sum, count, avg, max, min.
+96. What is Pandas Index?
+
+Ans. An index is a unique number by which rows in a pandas dataframe are numbered.
+97. Describe Data Operations in Pandas?
+
+Ans. Common data operations in pandas are data cleaning, data preprocessing, data transformation, data standardisation, data normalisation, data aggregation.
+98. Define GroupBy in Pandas?
+
+Ans. groupby is a special function in pandas which is used to group rows together given certain specific columns which have information for categories used for grouping data together.
+99. How to convert the index of a series into a column of a dataframe?
+
+Ans. df = df.reset_index() will convert index to a column in a pandas dataframe.
+Advanced Data Science Interview Questions
+100. How to keep only the top 2 most frequent values as it is and replace everything else as ‘Other’?
+
+Ans.
+
+"s = pd.Series(np.random.randint(1, 5, [12]))
+print(s.value_counts())
+s[~s.isin(ser.value_counts().index[:2])] = 'Other'
+s"
+
+101. How to convert the first character of each element in a series to uppercase?
+
+Ans. pd.Series([x.title() for x in s])
+102. How to get the minimum, 25th percentile, median, 75th, and max of a numeric series?
+
+Ans.
+
+"randomness= np.random.RandomState(100)
+s = pd.Series(randomness.normal(100, 55, 5))
+np.percentile(ser, q=[0, 25, 50, 75, 100])"
+
+103. What kind of data does Scatterplot matrices represent?
+
+Ans. Scatterplot matrices are most commonly used to visualise multidimensional data. It is used in visualising bivariate relationships between a combination of variables.
+104. What is the hyperbolic tree?
+
+Ans. A hyperbolic tree or hypertree is an information visualisation and graph drawing method inspired by hyperbolic geometry.
+105. What is scientific visualisation? How it is different from other visualisation techniques?
+
+Ans. Scientific visualization is representing data graphically as a means of gaining insight from the data. It is also known as visual data analysis. This helps to understand the system that can be studied in ways previously impossible.
+106. What are some of the downsides of Visualisation?
+
+Ans. Few of the downsides of visualisation are: It gives estimation not accuracy, a different group of the audience may interpret it differently, Improper design can cause confusion.
+107. What is the difference between a tree map and heat map?
+
+Ans. A heat map is a type of visualisation tool that compares different categories with the help of colours and size. It can be used to compare two different measures. The ‘tree map’ is a chart type that illustrates hierarchical data or part-to-whole relationships.
+108. What is disaggregation and aggregation of data?
+
+Ans. Aggregation basically is combining multiple rows of data at a single place from low level to a higher level. Disaggregation, on the other hand, is the reverse process i.e breaking the aggregate data to a lower level.
+109. What are some common data quality issues when dealing with Big Data?
+
+Ans. Some of the major quality issues when dealing with big data are duplicate data, incomplete data, the inconsistent format of data, incorrect data, the volume of data(big data), no proper storage mechanism, etc.
+110. What is a confusion matrix?
+
+Ans. A confusion matrix is a table for visualising the performance of a classification algorithm on a set of test data for which the true values are known.
+111. What is clustering?
+
+Ans. Clustering means dividing data points into a number of groups. The division is done in a way that all the data points in the same group are more similar to each other than the data points in other groups. A few types of clustering are Hierarchical clustering, K means clustering, Density-based clustering, Fuzzy clustering etc.
+112. What are the data mining packages in R?
+
+Ans. A few popular data mining packages in R are Dplyr- data manipulation, Ggplot2- data visualisation, purrr- data wrangling, Hmisc- data analysis, datapasta- data import etc.
+113. What are techniques used for sampling? Advantage of sampling 
+
+There are various methods for drawing samples from data.
+
+The two main Sampling techniques are
+
+    Probability sampling
+    Non-probability sampling 
+
+Probability sampling
+
+Probability sampling means that each individual of the population has a possibility of being included in the sample. Probability sampling methods include – 
+
+    Simple random sampling
+
+In simple random sampling, each individual of the population has an equivalent chance of being selected or included.
+
+    Systematic sampling
+
+Systematic sampling is very much similar to random sampling. The difference is just that instead of randomly generating numbers, in systematic sampling every individual of the population is assigned a number and are chosen at regular intervals.
+
+    Stratified sampling
+
+In stratified sampling, the population is split into sub-populations. It allows you to conclude more precise results by ensuring that every sub-population is represented in the sample.
+
+    Cluster sampling
+
+Cluster sampling also involves dividing the population into sub-populations, but each subpopulation should have analogous characteristics to that of the whole sample. Rather than sampling individuals from each subpopulation, you randomly select the entire subpopulation.
+
+Non-probability sampling 
+
+In non-probability sampling, individuals are selected using non-random ways and not every individual has a possibility of being included in the sample.
+
+    Convenience sampling
+
+Convenience sampling is a method where data is collected from an easily accessible group.
+
+    Voluntary Response sampling
+    Voluntary Response sampling is similar to convenience sampling, but here instead of researchers choosing individuals and then contacting them, people or individuals volunteer themselves.
+
+    Purposive sampling
+
+Purposive sampling also known as judgmental sampling is where the researchers use their expertise to select a sample that is useful or relevant to the purpose of the research.
+
+    Snowball sampling
+
+Snowball sampling is used where the population is difficult to access. It can be used to recruit individuals via other individuals.
+
+Advantages of Sampling  
+
+    Low cost advantage 
+    Easy to analyze by limited resources 
+    Less time than other techniques
+    Scope is considered to be considerably high 
+    Sampled data is considered to be high 
+    Organizational convenience 
+
+114. What is imbalance data?
+
+Imbalance data in simple words is a reference to different types of datasets where there is an uneven distribution of observations to the target class.  Which means, one class label has higher observations than the other comparatively. 
+115. Define Lift, KPI, Robustness, Model fitting and DOE
+
+Lift is used to understand the performance of a given targeting model in predicting performance, when compared against a randomly picked targeting model. 
+
+KPI or Key performance indicators is a yardstick used to measure the performance of an organization or an employee based on organizational objectives. 
+
+Robustness is a property that identifies the effectiveness of an algorithm when tested with a new independent dataset. 
+
+Model fitting is a measure of how well a machine learning model generalizes to similar data to that on which it was trained.
+
+Design of Experiment (DOE) is a set of mathematical methods for process optimization and for quality by design (QbD).
+116. Define Confounding Variables
+
+A confounding variable is an external influence in an experiment. In simple words, these variables change the effect of a dependent and independent variable. A variable should satisfy below conditions to be a confounding variable :
+
+    Variables should be correlated to the independent variable.
+    Variables should be informally related to the dependent variable.
+
+For example, if you are studying whether a lack of exercise has an effect on weight gain, then the lack of exercise is an independent variable and weight gain is a dependent variable. A confounder variable can be any other factor that has an effect on weight gain. Amount of food consumed, weather conditions etc. can be a confounding variable.
+117. Why are time series problems different from other regression problems?
+
+Time series is extrapolation whereas Regression is interpolation. Time-series refers to an organized chain of data. Time-series forecasts what comes next in the sequence. Time-series could be assisted with other series which can occur together. 
+
+Regression can be applied to Time-series problems as well as to non-ordered sequences which are termed as Features. While making a projection, new values of Features are presented and Regression calculates results for the target variable. 
+118. What is the difference between the Test set and validation set?
+
+Test set : Test set is a set of examples used only to evaluate the performance of a fully specified classifier. In simple words, it is used to fit the parameters. It is used to test the data which is passed as input to your model.
+
+Validation set : Validation set is a set of examples used to tune the parameters of a classifier. In simple words, it is used to tune the parameters. Validation set is used to validate the output which is produced by your model.
+
+Kernel Trick
+
+A Kernel Trick is a method where a linear classifier is used to solve non-linear problems. In other words, it is a method where a non-linear object is projected to a higher dimensional space to make it easier to categorize where the data would be divided linearly by a plane.
+
+Let’s understand it better,
+
+Let’s define a Kernel function K as xi and xj as just being the dot product.
+
+K(xi,xj) = xi . xj = xTixj   
+
+If every data point is mapped into the high-dimensional space via some transformation
+
+Φ:x -> Φ(x)
+
+The dot product becomes: 
+
+K(xi,xj) = ΦxTiΦxj 
+
+Box Plot and Histograms
+
+Box Plot and Histogram are types of charts that represent numerical data graphically. It is an easier way to visualize data. It makes it easier to compare characteristics of data between categories.
+
+
+
+11. What is POS tagging?
+
+Parts of speech tagging better known as POS tagging refers to the process of identifying specific words in a document and group them as part of speech, based on its context. POS tagging is also known as grammatical tagging since it involves understanding grammatical structures and identifying the respective component.
+
+POS tagging is a complicated process since the same word can be different parts of speech depending on the context. The same generic process used for word mapping is quite ineffective for POS tagging because of the same reason.
+12. What is NES?
+
+Name entity recognition is more commonly known as NER is the process of identifying specific entities in a text document which are more informative and have a unique context. These often denote places, people, organisations, and more. Even though it seems like these entities are proper nouns, the NER process is far from identifying just the nouns. In fact, NER involves entity chunking or extraction wherein entities are segmented to categorise them under different predefined classes. This step further helps in extracting information. 
+NLP Interview Questions for Experienced
+
+13. Which of the following techniques can be used for keyword normalization in NLP, the process of converting a keyword into its base form?
+a. Lemmatization
+b. Soundex
+c. Cosine Similarity
+d. N-grams
+Answer: a)
+Lemmatization helps to get to the base form of a word, e.g. are playing -> play, eating -> eat, etc..
+Other options are meant for different purposes.
+
+14. Which of the following techniques can be used to compute the distance between two word vectors in NLP?
+a. Lemmatization
+b. Euclidean distance
+c. Cosine Similarity
+d. N-grams
+Answer: b) and c)
+Distance between two word vectors can be computed using Cosine similarity and Euclidean Distance.  Cosine Similarity establishes a cosine angle between the vector of two words. A cosine angle close to each other between two word vectors indicates the words are similar and vice a versa.
+E.g. cosine angle between two words “Football” and “Cricket” will be closer to 1 as compared to angle between the words “Football” and “New Delhi”
+
+Python code to implement CosineSimlarity function would look like this
+def cosine_similarity(x,y):
+    return np.dot(x,y)/( np.sqrt(np.dot(x,x)) * np.sqrt(np.dot(y,y)) )
+q1 = wikipedia.page(‘Strawberry’)
+q2 = wikipedia.page(‘Pineapple’)
+q3 = wikipedia.page(‘Google’)
+q4 = wikipedia.page(‘Microsoft’)
+cv = CountVectorizer()
+X = np.array(cv.fit_transform([q1.content, q2.content, q3.content, q4.content]).todense())
+print (“Strawberry Pineapple Cosine Distance”, cosine_similarity(X[0],X[1]))
+print (“Strawberry Google Cosine Distance”, cosine_similarity(X[0],X[2]))
+print (“Pineapple Google Cosine Distance”, cosine_similarity(X[1],X[2]))
+print (“Google Microsoft Cosine Distance”, cosine_similarity(X[2],X[3]))
+print (“Pineapple Microsoft Cosine Distance”, cosine_similarity(X[1],X[3]))
+Strawberry Pineapple Cosine Distance 0.8899200413701714
+Strawberry Google Cosine Distance 0.7730935582847817
+Pineapple Google Cosine Distance 0.789610214147025
+Google Microsoft Cosine Distance 0.8110888282851575
+Usually Document similarity is measured by how close semantically the content (or words) in the document are to each other. When they are close, the similarity index is close to 1, otherwise near 0.
+The Euclidean distance between two points is the length of the shortest path connecting them. Usually computed using Pythagoras theorem for a triangle.
+15. What are the possible features of a text corpus in NLP?
+
+a. Count of the word in a document
+b. Vector notation of the word
+c. Part of Speech Tag
+d. Basic Dependency Grammar
+e. All of the above
+Answer: e)
+All of the above can be used as features of the text corpus.
+
+16. You created a document term matrix on the input data of 20K documents for a Machine learning model. Which of the following can be used to reduce the dimensions of data?
+
+    Keyword Normalization
+    Latent Semantic Indexing
+    Latent Dirichlet Allocation
+
+a. only 1
+b. 2, 3
+c. 1, 3
+d. 1, 2, 3
+Answer: d)
+
+17. Which of the text parsing techniques can be used for noun phrase detection, verb phrase detection, subject detection, and object detection in NLP.
+a. Part of speech tagging
+b. Skip Gram and N-Gram extraction
+c. Continuous Bag of Words
+d. Dependency Parsing and Constituency Parsing
+Answer: d)
+
+18. Dissimilarity between words expressed using cosine similarity will have values significantly higher than 0.5
+a. True
+b. False
+Ans: a)
+
+19. Which one of the following are keyword Normalization techniques in NLP
+a.  Stemming
+b.  Part of Speech
+c. Named entity recognition
+d. Lemmatization
+Answer: a) and d)
+Part of Speech (POS) and Named Entity Recognition(NER) are not keyword Normalization techniques. Named Entity help you extract Organization, Time, Date, City, etc..type of entities from the given sentence, whereas Part of Speech helps you extract Noun, Verb, Pronoun, adjective, etc..from the given sentence tokens.
+
+20. Which of the below are NLP use cases?
+a. Detecting objects from an image
+b. Facial Recognition
+c. Speech Biometric
+d. Text Summarization
+Ans: d)
+a) And b) are Computer Vision use cases, and c) is Speech use case.
+Only d) Text Summarization is an NLP use case.
+
+21. In a corpus of N documents, one randomly chosen document contains a total of T terms and the term “hello” appears K times.
+What is the correct value for the product of TF (term frequency) and IDF (inverse-document-frequency), if the term “hello” appears in approximately one-third of the total documents?
+a. KT * Log(3)
+b. T * Log(3) / K
+c. K * Log(3) / T
+d. Log(3) / KT
+Answer: (c)
+formula for TF is K/T
+formula for IDF is log(total docs / no of docs containing “data”)
+= log(1 / (⅓))
+= log (3)
+Hence correct choice is Klog(3)/T
+
+22. In NLP, The algorithm decreases the weight for commonly used words and increases the weight for words that are not used very much in a collection of documents
+a. Term Frequency (TF)
+b. Inverse Document Frequency (IDF)
+c. Word2Vec
+d. Latent Dirichlet Allocation (LDA)
+Ans: b)
+
+While there are ample resources available online to help you understand the subject, there’s nothing quite like taking up a certificate course. Take up the Introduction to Natural Language Processing Free Online Course offered by Great Learning Academy to learn the basics concepts and earn a certificate that’ll help you step into the world of NLP.
+
+23. In NLP, The process of removing words like “and”, “is”, “a”, “an”, “the” from a sentence is called as
+a. Stemming
+b. Lemmatization
+c. Stop word
+d. All of the above
+Ans: c) 
+In Lemmatization, all the stop words such as a, an, the, etc.. are removed. One can also define custom stop words for removal.
+
+24. In NLP, The process of converting a sentence or paragraph into tokens is referred to as Stemming
+a. True
+b. False
+Ans: b)
+The statement describes the process of tokenization and not stemming, hence it is False.
+
+25. In NLP, Tokens are converted into numbers before giving to any Neural Network
+a. True
+b. False
+Ans: a)
+In NLP, all words are converted into a number before feeding to a Neural Network.
+
+26. identify the odd one out
+a. nltk
+b. scikit learn
+c. SpaCy
+d. BERT
+Ans: d)
+All the ones mentioned are NLP libraries except BERT, which is a word embedding
+
+27. TF-IDF helps you to establish?
+a. most frequently occurring word in the document
+b. most important word in the document
+Ans: b)
+
+TF-IDF helps to establish how important a particular word is in the context of the document corpus. TF-IDF takes into account the number of times the word appears in the document and offset by the number of documents that appear in the corpus.
+
+    TF is the frequency of term divided by a total number of terms in the document.
+    IDF is obtained by dividing the total number of documents by the number of documents containing the term and then taking the logarithm of that quotient.
+    Tf.idf is then the multiplication of two values TF and IDF.
+
+Suppose that we have term count tables of a corpus consisting of only two documents, as listed here
+Term	Document 1 Frequency	Document 2 Frequency
+This	1	1
+is	1	1
+a	2	 
+Sample	1	 
+another 	 	2
+example	 	3
+
+The calculation of tf–idf for the term “this” is performed as follows:
+for “this”
+———–
+tf(“this”, d1) = 1/5 = 0.2
+tf(“this”, d2) = 1/7 = 0.14
+idf(“this”, D) = log (2/2) =0
+hence tf-idf
+tfidf(“this”, d1, D) = 0.2* 0 = 0
+tfidf(“this”, d2, D) = 0.14* 0 = 0
+for “example”
+————
+tf(“example”, d1) = 0/5 = 0
+tf(“example”, d2) = 3/7 = 0.43
+idf(“example”, D) = log(2/1) = 0.301
+tfidf(“example”, d1, D) = tf(“example”, d1) * idf(“example”, D) = 0 * 0.301 = 0
+tfidf(“example”, d2, D) = tf(“example”, d2) * idf(“example”, D) = 0.43 * 0.301 = 0.129
+In its raw frequency form, TF is just the frequency of the “this” for each document. In each document, the word “this” appears once; but as document 2 has more words, its relative frequency is smaller.
+An IDF is constant per corpus, and accounts for the ratio of documents that include the word “this”. In this case, we have a corpus of two documents and all of them include the word “this”. So TF–IDF is zero for the word “this”, which implies that the word is not very informative as it appears in all documents.
+The word “example” is more interesting – it occurs three times, but only in the second document.
+
+28. In NLP, The process of identifying people, an organization from a given sentence, paragraph is called
+a. Stemming
+b. Lemmatization
+c. Stop word removal
+d. Named entity recognition
+Ans: d)
+
+29. Which one of the following is not a pre-processing technique in NLP
+a. Stemming and Lemmatization
+b. converting to lowercase
+c. removing punctuations
+d. removal of stop words
+e. Sentiment analysis
+Ans: e)
+Sentiment Analysis is not a pre-processing technique. It is done after pre-processing and is an NLP use case. All other listed ones are used as part of statement pre-processing.
+
+30. In text mining, converting text into tokens and then converting them into an integer or floating-point vectors can be done using
+a. CountVectorizer
+b.  TF-IDF
+c. Bag of Words
+d. NERs
+Ans: a)
+CountVectorizer helps do the above, while others are not applicable.
+text =[“Rahul is an avid writer, he enjoys studying understanding and presenting. He loves to play”]
+vectorizer = CountVectorizer()
+vectorizer.fit(text)
+vector = vectorizer.transform(text)
+print(vector.toarray())
+
+output 
+[[1 1 1 1 2 1 1 1 1 1 1 1 1 1]]
+The second section of the interview questions covers advanced NLP techniques such as Word2Vec, GloVe  word embeddings, and advanced models such as GPT, ELMo, BERT, XLNET based questions, and explanations.
+
+
+31. In NLP, Words represented as vectors are called as Neural Word Embeddings
+a. True
+b. False
+Ans: a)
+Word2Vec, GloVe based models build word embedding vectors that are multidimensional.
+
+32. In NLP, Context modeling is supported with which one of the following word embeddings
+
+    a. Word2Vec
+    b) GloVe
+    c) BERT
+    d) All of the above
+
+Ans: c)
+Only BERT (Bidirectional Encoder Representations from Transformer) supports context modelling where the previous and next sentence context is taken into consideration. In Word2Vec, GloVe only word embeddings are considered and previous and next sentence context is not considered.
+
+33. In NLP, Bidirectional context is supported by which of the following embedding
+a. Word2Vec
+b. BERT
+c. GloVe
+d. All the above
+Ans: b)
+Only BERT provides a bidirectional context. The BERT model uses the previous and the next sentence to arrive at the context.Word2Vec and GloVe are word embeddings, they do not provide any context.
+
+34. Which one of the following Word embeddings can be custom trained for a specific subject in NLP
+a. Word2Vec
+b. BERT
+c. GloVe
+d. All the above
+Ans: b)
+BERT allows Transform Learning on the existing pre-trained models and hence can be custom trained for the given specific subject, unlike Word2Vec and GloVe where existing word embeddings can be used, no transfer learning on text is possible.
+
+35. Word embeddings capture multiple dimensions of data and are represented as vectors
+a. True
+b. False
+Ans: a)
+
+36. In NLP, Word embedding vectors help establish distance between two tokens
+a. True
+b. False
+Ans: a)
+One can use Cosine similarity to establish distance between two vectors represented through Word Embeddings
+
+37. Language Biases are introduced due to historical data used during training of word embeddings, which one amongst the below is not an example of bias
+a. New Delhi is to India, Beijing is to China
+b. Man is to Computer, Woman is to Homemaker
+Ans: a)
+Statement b) is a bias as it buckets Woman into Homemaker, whereas statement a) is not a biased statement.
+
+38. Which of the following will be a better choice to address NLP use cases such as semantic similarity, reading comprehension, and common sense reasoning
+a. ELMo
+b. Open AI’s GPT
+c. ULMFit
+Ans: b)
+Open AI’s GPT is able to learn complex pattern in data by using the Transformer models Attention mechanism and hence is more suited for complex use cases such as semantic similarity, reading comprehensions, and common sense reasoning.
+
+39. Transformer architecture was first introduced with?
+a. GloVe
+b. BERT
+c. Open AI’s GPT
+d. ULMFit
+Ans: c)
+ULMFit has an LSTM based Language modeling architecture. This got replaced into Transformer architecture with Open AI’s GPT
+
+40. Which of the following architecture can be trained faster and needs less amount of training data
+a. LSTM based Language Modelling
+b. Transformer architecture
+Ans: b)
+Transformer architectures were supported from GPT onwards and were faster to train and needed less amount of data for training too.
+
+41. Same word can have multiple word embeddings possible with ____________?
+a. GloVe
+b. Word2Vec
+c. ELMo
+d. nltk
+Ans: c)
+
+EMLo word embeddings supports same word with multiple embeddings, this helps in using the same word in a different context and thus captures the context than just meaning of the word unlike in GloVe and Word2Vec. Nltk is not a word embedding.
+NLP Interview questions infographicsai-01
+token, segment and position embeddings
+
+
+42. For a given token, its input representation is the sum of embedding from the token, segment and position embedding
+a. ELMo
+b. GPT
+c. BERT
+d. ULMFit
+Ans: c)
+BERT uses token, segment and position embedding.
+
+43. Trains two independent LSTM language model left to right and right to left and shallowly concatenates them
+a. GPT
+b. BERT
+c. ULMFit
+d. ELMo
+Ans: d)
+ELMo tries to train two independent LSTM language models (left to right and right to left) and concatenates the results to produce word embedding.
+
+44. Uses unidirectional language model for producing word embedding
+a. BERT
+b. GPT
+c. ELMo
+d. Word2Vec
+Ans: b) 
+GPT is a idirectional model and word embedding are produced by training on information flow from left to right. ELMo is bidirectional but shallow. Word2Vec provides simple word embedding.
+45. In this architecture, the relationship between all words in a sentence is modelled irrespective of their position. Which architecture is this?
+
+a. OpenAI GPT
+b. ELMo
+c. BERT
+d. ULMFit
+Ans: c)
+
+BERT Transformer architecture models the relationship between each word and all other words in the sentence to generate attention scores. These attention scores are later used as weights for a weighted average of all words’ representations which is fed into a fully-connected network to generate a new representation.
+46. List 10 use cases to be solved using NLP techniques?
+
+    Sentiment Analysis
+    Language Translation (English to German, Chinese to English, etc..)
+    Document Summarization
+    Question Answering
+    Sentence Completion
+    Attribute extraction (Key information extraction from the documents)
+    Chatbot interactions
+    Topic classification
+    Intent extraction
+    Grammar or Sentence correction
+    Image captioning
+    Document Ranking
+    Natural Language inference
+
+Difference between BERT and XLNet
+47. Transformer model pays attention to the most important word in Sentence
+
+
+a. True
+b. False
+Ans: a) Attention mechanisms in the Transformer model are used to model the relationship between all words and also provide weights to the most important word.
+
+48. Which NLP model gives the best accuracy amongst the following?
+
+a. BERT
+b. XLNET
+c. GPT-2
+d. ELMo
+Ans: b) XLNET
+XLNET has given best accuracy amongst all the models. It has outperformed BERT on 20 tasks and achieves state of art results on 18 tasks including sentiment analysis, question answering, natural language inference, etc.
+
+49. Permutation Language models is a feature of
+
+
+a. BERT
+b. EMMo
+c. GPT
+d. XLNET
+Ans: d) 
+XLNET provides permutation-based language modelling and is a key difference from BERT. In permutation language modeling, tokens are predicted in a random manner and not sequential. The order of prediction is not necessarily left to right and can be right to left. The original order of words is not changed but a prediction can be random. 
+The conceptual difference between BERT and XLNET can be seen from the following diagram.
+
+50. Transformer XL uses relative positional embedding
+
+a. True
+b. False
+Ans: a)
+Instead of embedding having to represent the absolute position of a word, Transformer XL uses an embedding to encode the relative distance between the words. This embedding is used to compute the attention score between any 2 words that could be separated by n words before or after.
+
+There, you have it – all the probable questions for your NLP interview. Now go, give it your best shot.
 
 
 
