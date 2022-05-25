@@ -7089,3 +7089,41 @@ Given the assumption that the set of features gives a meaningful causation to y,
 Random Forest models are not able to extrapolate time series data and understand increasing/decreasing trends. It will provide us with average data points if the validation data has values greater than the training data points.
 
 <br/>
+
+
+Awesome Data Science Interview Resources
+
+A list of links with data science interview questions and other userful resources.
+
+Contributions are welcome!
+Questions and answers
+
+    This repository: https://ds-interviews.org
+    Data science interview questions and answers by iamtodor
+    120+ data science interview questions by kojino
+    40 Interview Questions asked at Startups in Machine Learning / Data Science
+    The Most Comprehensive Data Science & Machine Learning Interview Guide You’ll Ever Need
+    Data Science Recruitment Challenges - take-home assignments for data science positions
+    Latest Data Science Interview Questions - Complete Interview Guide
+
+Questions
+
+    The toughest data science interview - a post on LinkedIn
+    Data Science Interview Questions from ITShared - from 2015, but many of them are still valid
+
+Other useful links
+
+    Getting a Data Science Job: Video, Slides
+    How does a technical screening for data science positions look like? - a post on LinkedIn
+    How to prepare for Research Engineer (ML) interview? - a post on LinkedIn
+    How to prepare for a data science interview? - 100+ answers on Quora
+    How to Get a Data Science Job: A Ridiculously Specific Guide
+    How to Succeed in A Data Science Interview
+    Machine Learning Systems Design
+    I interviewed at five top companies in Silicon Valley in five days, and luckily got five job offers
+    Navigating working with other teams
+
+Negotiation
+
+    Ten Rules for Negotiating a Job Offer
+    Career Advice and Salary Negotiations: Move Early and Move Often
